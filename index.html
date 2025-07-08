@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WP Blog</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="skeleton-screen-css/index.min.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="#" class="logo">Logo</a>
+            <ul class="nav-list">
+                <li><a class="nav-link" href="#">Home</a></li>
+                <li><a class="nav-link" href="#">About</a></li>
+                <li><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="container">
+        <h1>Blog</h1>
+        <main id="root">
+            <!-- React components will be rendered here -->
+        </main>
+    </div>
+    <footer class="site-footer">
+        <p>&copy; 2025 Your Blog Name</p>
+        <p>Powered by <a href="https://wordpress.com">WordPress.com</a></p>
+        <p>Built with <a href="https://reactjs.org">React</a> and <a href="https://babeljs.io">Babel</a></p>
+    </footer>
+
+    <script type="text/babel">
+        // Babel standalone in the browser does not support ES module imports (import/export) or require
+
+        function stripHtml(html) {
+            const tmp = document.createElement('div');
+            tmp.innerHTML = html || '';
+            return tmp.textContent?.trim() || '';
+        }
+
+        function Card({ post }) {
+            const [showFull, setShowFull] = React.useState(false);
+            const headerImg = post.featured_image || (post.attachments && Object.values(post.attachments)[0]?.URL) || post.thumbnail || null;
+            // Detect if excerpt and content are the same (ignoring HTML)
+            const excerptText = stripHtml(post.excerpt);
+            const contentText = stripHtml(post.content);
+            const fitsExcerpt = excerptText === contentText;
+            return (
+                <div className="card">
+                    <div className="card-title">{post.title}</div>
+                    <div className="card-content">
+                        {headerImg && (
+                            <img className="card-image" src={headerImg} alt="Post header" />
+                        )}
+                        {!showFull ? (
+                            <>
+                                <p className="card-excerpt" dangerouslySetInnerHTML={{ __html: post.excerpt }}></p>
+                                {!fitsExcerpt && (
+                                    <button className="card-btn" onClick={() => setShowFull(true)}>Read more</button>
+                                )}
+                            </>
+                        ) : (
+                            <div>
+                                <div className="card-full-content" dangerouslySetInnerHTML={{ __html: post.content }}></div>
+                                <button className="card-btn card-btn-less" onClick={() => setShowFull(false)}>Show less</button>
+                            </div>
+                        )}
+                    </div>
+                </div>
+            );
+        }
+        function CardSkeleton() {
+            return (
+                <div className="ssc-card card card-skeleton"></div>
+            );
+        }
+
+        function CardsList({ posts }) {
+            return (
+                <div className="cards-list">
+                    {posts.posts.map(post => <Card key={post.ID} post={post} />)}
+                </div>
+            );
+        }
+        function CardsListSkeleton() {
+            return (
+                <div className="cards-list">
+                    <CardSkeleton />
+                    <CardSkeleton />
+                    <CardSkeleton />
+                </div>
+            );
+        }
+
+        const WPSITENAME = "gamerecs"
+        const WPSITENUMBER = "246240974"
+        const TESTMODE = false
+
+        async function fetchWPContent() {
+            let site_url = `https://public-api.wordpress.com/rest/v1/sites/${WPSITENAME}.wordpress.com/`
+            let posts_url = `https://public-api.wordpress.com/rest/v1.1/sites/${WPSITENUMBER}/posts/`
+
+            if (TESTMODE) {
+                function delay(ms) {
+                    return new Promise(resolve => setTimeout(resolve, ms));
+                }
+                await delay(2000);
+                site_url = 'json/wpsite.json'
+                posts_url = 'json/wpposts.json'
+            }
+            return Promise.all([
+                fetch(site_url).then(r => r.json()),
+                fetch(posts_url).then(r => r.json())
+            ]).then(([meta, posts]) => ({ meta, posts }));
+        }
+
+        async function main() {
+            const domNode = document.getElementById('root');
+            const root = ReactDOM.createRoot(domNode);
+            root.render(
+                <CardsListSkeleton />
+            );
+            try {
+                const { meta, posts } = await fetchWPContent();
+                document.title = meta.name;
+                if (meta.icon) {
+                    let favicon = document.querySelector('link[rel~="icon"]');
+                    if (!favicon) {
+                        favicon = document.createElement('link');
+                        favicon.rel = 'icon';
+                        document.head.appendChild(favicon);
+                    }
+                    favicon.href = meta.icon.img;
+                }
+                root.render(<CardsList posts={posts} />);
+            } catch (error) {
+                root.render(<div style={{ color: 'red' }}>Failed to load posts.</div>);
+            }
+        }
+        main();
+    </script>
+</body>
+
+</html>

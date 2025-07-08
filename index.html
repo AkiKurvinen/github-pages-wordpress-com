@@ -101,7 +101,7 @@
             return (
                 <>
                     <div className="ssc-square" style={{ height: '50px' }}></div>
-                    <div className="ssc-square hero" style={{ height: '100px' }}></div>
+                    <div className="ssc-square hero" style={{ height: '230px' }}></div>
                 </>
             );
         }
@@ -124,12 +124,12 @@
 
         const WPSITENAME = "hobbierecs"
         const WPSITENUMBER = "246259228"
-        const TESTMODE = true
+        const TESTMODE = false
 
         // CONTROLLERS
         async function fetchWPContent() {
             let site_url = `https://public-api.wordpress.com/rest/v1/sites/${WPSITENAME}.wordpress.com/`
-            let posts_url = `https://public-api.wordpress.com/rest/v1.1/sites/${WPSITENUMBER}/posts/?category={postitem}`
+            let posts_url = `https://public-api.wordpress.com/rest/v1.1/sites/${WPSITENUMBER}/posts/`
             if (TESTMODE) {
                 function delay(ms) {
                     return new Promise(resolve => setTimeout(resolve, ms));

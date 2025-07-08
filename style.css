@@ -5,6 +5,10 @@
     --primary-dark: #0073aa;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-family: Arial, Helvetica, sans-serif;
     background: var(--bg-light);

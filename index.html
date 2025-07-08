@@ -14,35 +14,46 @@
 </head>
 
 <body>
-    <header class="site-header">
-        <nav class="navbar">
-            <a href="#" class="logo">Logo</a>
-            <ul class="nav-list">
-                <li><a class="nav-link" href="#">Home</a></li>
-                <li><a class="nav-link" href="#">About</a></li>
-                <li><a class="nav-link" href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="container">
-        <h1>Blog</h1>
-        <main id="root">
-            <!-- React components will be rendered here -->
-        </main>
+    <div id="root">
+        <!-- React components will be rendered here -->
     </div>
-    <footer class="site-footer">
-        <p>&copy; 2025 Your Blog Name</p>
-        <p>Powered by <a href="https://wordpress.com">WordPress.com</a></p>
-        <p>Built with <a href="https://reactjs.org">React</a> and <a href="https://babeljs.io">Babel</a></p>
-    </footer>
 
     <script type="text/babel">
         // Babel standalone in the browser does not support ES module imports (import/export) or require
 
+        // UTILITY 
         function stripHtml(html) {
             const tmp = document.createElement('div');
             tmp.innerHTML = html || '';
             return tmp.textContent?.trim() || '';
+        }
+
+        // COMPONENTS
+        function Header({ meta, header }) {
+            return (
+                <>
+                    <header className="site-header">
+                        <nav className="navbar">
+                            <a href="#" className="logo">{meta.name}</a>
+                            <ul className="nav-list">
+                                <li><a className="nav-link" href="#hobbies">Hobbies</a></li>
+                                <li><a className="nav-link" href="#about">About</a></li>
+                            </ul>
+                        </nav>
+                    </header>
+                    <div className="hero">
+                        <p className="herotext" >{header.title}</p>
+                        <p className="herodesc" dangerouslySetInnerHTML={{ __html: header.content }}></p>
+                    </div>
+                </>
+            )
+        }
+
+        function Footer({ footer }) {
+            return (
+                <footer className="site-footer" id="about"
+                    dangerouslySetInnerHTML={{ __html: footer.content }}>
+                </footer>)
         }
 
         function Card({ post }) {
@@ -76,19 +87,31 @@
                 </div>
             );
         }
+
+        function CardsList({ posts }) {
+            return (
+                <div className="cards-list">
+                    {posts.map(post => <Card key={post.ID} post={post} />)}
+                </div>
+            );
+        }
+
+        // SKELETONS
+        function HeaderSkeleton() {
+            return (
+                <>
+                    <div className="ssc-square" style={{ height: '50px' }}></div>
+                    <div className="ssc-square hero" style={{ height: '230px' }}></div>
+                </>
+            );
+        }
+
         function CardSkeleton() {
             return (
                 <div className="ssc-card card card-skeleton"></div>
             );
         }
 
-        function CardsList({ posts }) {
-            return (
-                <div className="cards-list">
-                    {posts.posts.map(post => <Card key={post.ID} post={post} />)}
-                </div>
-            );
-        }
         function CardsListSkeleton() {
             return (
                 <div className="cards-list">
@@ -99,14 +122,14 @@
             );
         }
 
-        const WPSITENAME = "gamerecs"
-        const WPSITENUMBER = "246240974"
+        const WPSITENAME = "hobbierecs"
+        const WPSITENUMBER = "246259228"
         const TESTMODE = false
 
+        // CONTROLLERS
         async function fetchWPContent() {
             let site_url = `https://public-api.wordpress.com/rest/v1/sites/${WPSITENAME}.wordpress.com/`
             let posts_url = `https://public-api.wordpress.com/rest/v1.1/sites/${WPSITENUMBER}/posts/`
-
             if (TESTMODE) {
                 function delay(ms) {
                     return new Promise(resolve => setTimeout(resolve, ms));
@@ -125,10 +148,19 @@
             const domNode = document.getElementById('root');
             const root = ReactDOM.createRoot(domNode);
             root.render(
-                <CardsListSkeleton />
+                <>
+                    <HeaderSkeleton />
+                    <CardsListSkeleton />
+                </>
             );
+
             try {
                 const { meta, posts } = await fetchWPContent();
+
+                let items = posts.posts.filter(post => post.categories && Object.keys(post.categories).includes("postitem"));
+                let header = posts.posts.filter(post => post.categories && Object.keys(post.categories).includes("header"))[0];
+                let footer = posts.posts.filter(post => post.categories && Object.keys(post.categories).includes("footer"))[0];
+
                 document.title = meta.name;
                 if (meta.icon) {
                     let favicon = document.querySelector('link[rel~="icon"]');
@@ -139,7 +171,15 @@
                     }
                     favicon.href = meta.icon.img;
                 }
-                root.render(<CardsList posts={posts} />);
+                root.render(
+                    <>
+                        <Header meta={meta} header={header} />
+                        <div id="container">
+                            <h1 id="hobbies">Hobbies</h1>
+                            <CardsList posts={items} />
+                        </div>
+                        <Footer footer={footer} />
+                    </>);
             } catch (error) {
                 root.render(<div style={{ color: 'red' }}>Failed to load posts.</div>);
             }

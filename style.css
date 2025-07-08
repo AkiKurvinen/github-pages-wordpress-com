@@ -1,26 +1,41 @@
+:root {
+    --bg-light: #f7f8fa;
+    --bg-dark: #222;
+    --primary-light: #4f8cff;
+    --primary-dark: #0073aa;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-family: Arial, Helvetica, sans-serif;
-    background: #f7f8fa;
-    color: #222;
+    background: var(--bg-light);
+    color: var(--bg-dark);
+    scroll-behavior: smooth;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background: #f7f8fa;
+    background: var(--bg-light);
 }
 
 .site-header {
-    background: #222;
+    background: var(--bg-dark);
     color: #fff;
     padding: 0.5em 0;
-    margin-bottom: 1em;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
+    padding: 0.5em;
 }
 
 .logo {
@@ -28,6 +43,11 @@ body {
     color: #fff;
     text-decoration: none;
     margin-left: 1em;
+}
+
+.logo:hover {
+    opacity: 0.7;
+    transition: opacity 0.2s;
 }
 
 .nav-list {
@@ -47,7 +67,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #4f8cff;
+    color: var(--primary-light);
 }
 
 #container {
@@ -81,7 +101,7 @@ body {
     font-size: 1.2em;
     font-weight: bold;
     padding: 0.5em 0.2em;
-    color: #222;
+    color: var(--bg-dark);
     padding-top: 0;
 }
 
@@ -107,7 +127,7 @@ body {
 }
 
 .card-btn {
-    background: #0073aa;
+    background: var(--primary-dark);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -123,7 +143,7 @@ body {
 
 .card-btn-less {
     background: #eee;
-    color: #222;
+    color: var(--bg-dark);
     border: 1px solid #bbb;
 }
 
@@ -153,19 +173,51 @@ body {
 }
 
 .site-footer {
-    background: #222;
+    background: var(--bg-dark);
     color: #fff;
     text-align: center;
-    padding: 2em 0 1em 0;
+    padding: 1em 0 1em 0;
     margin-top: 2em;
     font-size: 1em;
+    line-height: 2em;
 }
 
 .site-footer a {
-    color: #4f8cff;
+    color: var(--primary-light);
     text-decoration: none;
 }
 
 .site-footer a:hover {
     text-decoration: underline;
+}
+
+/* Hero section styles */
+.hero {
+    background: linear-gradient(90deg, var(--primary-light) 0%, var(--primary-dark) 100%);
+    color: #fff;
+    border-radius: 0;
+    padding: 4em 2em;
+    margin-bottom: 2em;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.herotext {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin: 0 0 0.5em 0;
+    letter-spacing: 0.01em;
+    line-height: 1.1;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.herodesc {
+    font-size: 1.25em;
+    font-weight: 400;
+    margin: 0 0 0.5em 0;
+    opacity: 0.95;
+    line-height: 1.5;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }

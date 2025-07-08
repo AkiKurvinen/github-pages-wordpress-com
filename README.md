@@ -1,2 +1,3 @@
-# github-pages-wordpress-com
-Fetch wordpress.com blog posts to GitHub Pages 
+# GitHub Pages & wordpress.com
+- Fetch wordpress.com blog posts and meta data to GitHub Pages site
+

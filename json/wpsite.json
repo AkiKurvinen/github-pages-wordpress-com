@@ -1,15 +1,15 @@
 {
-    "ID": 246240974,
-    "name": "GameRecs",
-    "description": "",
-    "URL": "https:\/\/gamerecs.wordpress.com",
+    "ID": 246259228,
+    "name": "HobbieRecs",
+    "description": "Hobbies to try out",
+    "URL": "https:\/\/hobbierecs.wordpress.com",
     "jetpack": false,
     "jetpack_connection": false,
     "subscribers_count": 1,
     "lang": false,
     "icon": {
-        "img": "https:\/\/gamerecs.wordpress.com\/wp-content\/uploads\/2025\/07\/cropped-g-logo.png?w=96",
-        "ico": "https:\/\/gamerecs.wordpress.com\/wp-content\/uploads\/2025\/07\/cropped-g-logo.png?w=96"
+        "img": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/cropped-h-logo.png?w=96",
+        "ico": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/cropped-h-logo.png?w=96"
     },
     "logo": {
         "id": 0,
@@ -23,11 +23,11 @@
     "organization_id": 0,
     "meta": {
         "links": {
-            "self": "https:\/\/public-api.wordpress.com\/rest\/v1\/sites\/246240974",
-            "help": "https:\/\/public-api.wordpress.com\/rest\/v1\/sites\/246240974\/help",
-            "posts": "https:\/\/public-api.wordpress.com\/rest\/v1\/sites\/246240974\/posts\/",
-            "comments": "https:\/\/public-api.wordpress.com\/rest\/v1\/sites\/246240974\/comments\/",
-            "xmlrpc": "https:\/\/gamerecs.wordpress.com\/xmlrpc.php"
+            "self": "https:\/\/public-api.wordpress.com\/rest\/v1\/sites\/246259228",
+            "help": "https:\/\/public-api.wordpress.com\/rest\/v1\/sites\/246259228\/help",
+            "posts": "https:\/\/public-api.wordpress.com\/rest\/v1\/sites\/246259228\/posts\/",
+            "comments": "https:\/\/public-api.wordpress.com\/rest\/v1\/sites\/246259228\/comments\/",
+            "xmlrpc": "https:\/\/hobbierecs.wordpress.com\/xmlrpc.php"
         }
     },
     "launch_status": "launched",

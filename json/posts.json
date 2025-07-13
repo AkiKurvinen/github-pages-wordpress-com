@@ -1,0 +1,1727 @@
+{
+    "found": 9,
+    "posts": [
+        {
+            "ID": 32,
+            "site_ID": 246259228,
+            "author": {
+                "ID": 109867396,
+                "login": "kurvinenblog",
+                "email": false,
+                "name": "Aki Kurvinen",
+                "first_name": "Aki",
+                "last_name": "Kurvinen",
+                "nice_name": "kurvinenblog",
+                "URL": "http:\/\/kurvinenblog.wordpress.com",
+                "avatar_URL": "https:\/\/1.gravatar.com\/avatar\/1a68ae9bffeaf38d6654d1f481e928710fc4c06f5775aa751aa4cbc3fde928fb?s=96&d=identicon&r=G",
+                "profile_URL": "https:\/\/gravatar.com\/kurvinenblog",
+                "site_ID": 116411433
+            },
+            "date": "2025-07-13T13:14:00+03:00",
+            "modified": "2025-07-13T13:14:22+03:00",
+            "title": "Wakeboarding",
+            "URL": "https:\/\/hobbierecs.wordpress.com\/2025\/07\/13\/wakeboarding\/",
+            "short_URL": "https:\/\/wp.me\/pgFhh2-w",
+            "content": "\n<p><strong>Wakeboarding<\/strong> is a water sport in which the rider, standing on a wakeboard (a board with foot bindings), is towed behind a motorboat across its wake and especially up off the crest in order to perform aerial maneuvers.<sup><a href=\"https:\/\/en.wikipedia.org\/wiki\/Wakeboarding#cite_note-1\">[1]<\/a><\/sup> A hallmark of wakeboarding is the attempted performance of midair tricks. Wakeboarding was developed from a combination of <a href=\"https:\/\/en.wikipedia.org\/wiki\/Water_skiing\">water skiing<\/a>, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Snowboarding\">snowboarding<\/a> and <a href=\"https:\/\/en.wikipedia.org\/wiki\/Surfing\">surfing<\/a> techniques.<\/p>\n\n\n\n<p>The rider is usually towed by a rope behind a boat, but can also be towed by cable systems and winches, and be pulled by other motorized vehicles like personal watercraft, cars, trucks, and all-terrain vehicles. The gear and <a href=\"https:\/\/en.wikipedia.org\/wiki\/Wakeboard_boat\">wakeboard boat<\/a> used are often personalized to each rider&#8217;s liking.<\/p>\n\n\n\n<p>(wikipedia)<\/p>\n",
+            "excerpt": "<p>Wakeboarding is a water sport in which the rider, standing on a wakeboard (a board with foot bindings), is towed behind a motorboat across its wake and especially up off the crest in order to perform aerial maneuvers.[1] A hallmark of wakeboarding is the attempted performance of midair tricks. Wakeboarding was developed from a combination [&hellip;]<\/p>\n",
+            "slug": "wakeboarding",
+            "guid": "https:\/\/hobbierecs.wordpress.com\/?p=32",
+            "status": "publish",
+            "sticky": false,
+            "password": "",
+            "parent": false,
+            "type": "post",
+            "discussion": {
+                "comments_open": true,
+                "comment_status": "open",
+                "pings_open": true,
+                "ping_status": "open",
+                "comment_count": 0
+            },
+            "likes_enabled": true,
+            "sharing_enabled": true,
+            "like_count": 0,
+            "i_like": false,
+            "is_reblogged": false,
+            "is_following": false,
+            "global_ID": "fb7768d0d0de7f62039d976b134f0879",
+            "featured_image": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg",
+            "post_thumbnail": {
+                "ID": 33,
+                "URL": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg",
+                "guid": "http:\/\/hobbierecs.files.wordpress.com\/2025\/07\/wakeboarding-2629164_640.jpg",
+                "mime_type": "image\/jpeg",
+                "width": 640,
+                "height": 427
+            },
+            "format": "standard",
+            "geo": false,
+            "menu_order": 0,
+            "page_template": "",
+            "publicize_URLs": [],
+            "terms": {
+                "category": {
+                    "postitem": {
+                        "ID": 782444199,
+                        "name": "postitem",
+                        "slug": "postitem",
+                        "description": "",
+                        "post_count": 7,
+                        "parent": 0,
+                        "meta": {
+                            "links": {
+                                "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem",
+                                "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem\/help",
+                                "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                            }
+                        }
+                    }
+                },
+                "post_tag": {
+                    "extreme": {
+                        "ID": 21279,
+                        "name": "extreme",
+                        "slug": "extreme",
+                        "description": "",
+                        "post_count": 1,
+                        "meta": {
+                            "links": {
+                                "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:extreme",
+                                "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:extreme\/help",
+                                "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                            }
+                        }
+                    }
+                },
+                "post_format": {},
+                "mentions": {}
+            },
+            "tags": {
+                "extreme": {
+                    "ID": 21279,
+                    "name": "extreme",
+                    "slug": "extreme",
+                    "description": "",
+                    "post_count": 1,
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:extreme",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:extreme\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                        }
+                    }
+                }
+            },
+            "categories": {
+                "postitem": {
+                    "ID": 782444199,
+                    "name": "postitem",
+                    "slug": "postitem",
+                    "description": "",
+                    "post_count": 7,
+                    "parent": 0,
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                        }
+                    }
+                }
+            },
+            "attachments": {
+                "33": {
+                    "ID": 33,
+                    "URL": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg",
+                    "guid": "http:\/\/hobbierecs.files.wordpress.com\/2025\/07\/wakeboarding-2629164_640.jpg",
+                    "date": "2025-07-13T13:13:45+03:00",
+                    "post_ID": 32,
+                    "author_ID": 109867396,
+                    "file": "wakeboarding-2629164_640.jpg",
+                    "mime_type": "image\/jpeg",
+                    "extension": "jpg",
+                    "title": "wakeboarding-2629164_640",
+                    "caption": "",
+                    "description": "",
+                    "alt": "wakeboarding",
+                    "thumbnails": {
+                        "thumbnail": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=150",
+                        "medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=300",
+                        "large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=640",
+                        "newspack-article-block-landscape-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=640&h=427&crop=1",
+                        "newspack-article-block-portrait-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=640&h=427&crop=1",
+                        "newspack-article-block-square-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=640&h=427&crop=1",
+                        "newspack-article-block-landscape-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=640&h=427&crop=1",
+                        "newspack-article-block-portrait-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=600&h=427&crop=1",
+                        "newspack-article-block-square-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=640&h=427&crop=1",
+                        "newspack-article-block-landscape-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=600&h=427&crop=1",
+                        "newspack-article-block-portrait-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=450&h=427&crop=1",
+                        "newspack-article-block-square-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=600&h=427&crop=1",
+                        "newspack-article-block-landscape-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=400&h=300&crop=1",
+                        "newspack-article-block-portrait-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=300&h=400&crop=1",
+                        "newspack-article-block-square-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=400&h=400&crop=1",
+                        "newspack-article-block-landscape-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=200&h=150&crop=1",
+                        "newspack-article-block-portrait-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=150&h=200&crop=1",
+                        "newspack-article-block-square-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=200&h=200&crop=1",
+                        "newspack-article-block-uncropped": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/wakeboarding-2629164_640.jpg?w=640"
+                    },
+                    "height": 427,
+                    "width": 640,
+                    "exif": {
+                        "aperture": "0",
+                        "credit": "",
+                        "camera": "",
+                        "caption": "",
+                        "created_timestamp": "0",
+                        "copyright": "",
+                        "focal_length": "0",
+                        "iso": "0",
+                        "shutter_speed": "0",
+                        "title": "",
+                        "orientation": "0",
+                        "keywords": []
+                    },
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/media\/33",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/media\/33\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228",
+                            "parent": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/32"
+                        }
+                    }
+                }
+            },
+            "attachment_count": 1,
+            "metadata": [
+                {
+                    "id": "197",
+                    "key": "_thumbnail_id",
+                    "value": "33"
+                }
+            ],
+            "meta": {
+                "links": {
+                    "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/32",
+                    "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/32\/help",
+                    "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228",
+                    "replies": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/32\/replies\/",
+                    "likes": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/32\/likes\/"
+                }
+            },
+            "capabilities": {
+                "publish_post": false,
+                "delete_post": false,
+                "edit_post": false
+            },
+            "other_URLs": {}
+        },
+        {
+            "ID": 28,
+            "site_ID": 246259228,
+            "author": {
+                "ID": 109867396,
+                "login": "kurvinenblog",
+                "email": false,
+                "name": "Aki Kurvinen",
+                "first_name": "Aki",
+                "last_name": "Kurvinen",
+                "nice_name": "kurvinenblog",
+                "URL": "http:\/\/kurvinenblog.wordpress.com",
+                "avatar_URL": "https:\/\/1.gravatar.com\/avatar\/1a68ae9bffeaf38d6654d1f481e928710fc4c06f5775aa751aa4cbc3fde928fb?s=96&d=identicon&r=G",
+                "profile_URL": "https:\/\/gravatar.com\/kurvinenblog",
+                "site_ID": 116411433
+            },
+            "date": "2025-07-13T11:05:34+03:00",
+            "modified": "2025-07-13T11:05:34+03:00",
+            "title": "Photography",
+            "URL": "https:\/\/hobbierecs.wordpress.com\/2025\/07\/13\/photography\/",
+            "short_URL": "https:\/\/wp.me\/pgFhh2-s",
+            "content": "\n<p><strong>Photography<\/strong> is the <a href=\"https:\/\/en.wikipedia.org\/wiki\/Visual_arts\">art<\/a>, application, and practice of creating <a href=\"https:\/\/en.wikipedia.org\/wiki\/Image\">images<\/a> by recording <a href=\"https:\/\/en.wikipedia.org\/wiki\/Light\">light<\/a>, either electronically by means of an <a href=\"https:\/\/en.wikipedia.org\/wiki\/Image_sensor\">image sensor<\/a>, or chemically by means of a light-sensitive material such as <a href=\"https:\/\/en.wikipedia.org\/wiki\/Photographic_film\">photographic film<\/a>. It is employed in many fields of science, manufacturing (e.g., <a href=\"https:\/\/en.wikipedia.org\/wiki\/Photolithography\">photolithography<\/a>), and business, as well as its more direct uses for art, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Film\">film<\/a> and <a href=\"https:\/\/en.wikipedia.org\/wiki\/Video_production\">video production<\/a>, recreational purposes, hobby, and <a href=\"https:\/\/en.wikipedia.org\/wiki\/Mass_communication\">mass communication<\/a>.<sup><a href=\"https:\/\/en.wikipedia.org\/wiki\/Photography#cite_note-1\">[1]<\/a><\/sup> A person who operates a camera to capture or take <a href=\"https:\/\/en.wikipedia.org\/wiki\/Photograph\">photographs<\/a> is called a <a href=\"https:\/\/en.wikipedia.org\/wiki\/Photographer\">photographer<\/a>, while the captured image, also known as a <a href=\"https:\/\/en.wikipedia.org\/wiki\/Photograph\">photograph<\/a>, is the result produced by the <a href=\"https:\/\/en.wikipedia.org\/wiki\/Camera\">camera<\/a>.<\/p>\n\n\n\n<p>(wikipedia)<\/p>\n\n\n\n<p><\/p>\n",
+            "excerpt": "<p>Photography is the art, application, and practice of creating images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film. It is employed in many fields of science, manufacturing (e.g., photolithography), and business, as well as its more direct uses for art, [&hellip;]<\/p>\n",
+            "slug": "photography",
+            "guid": "https:\/\/hobbierecs.wordpress.com\/?p=28",
+            "status": "publish",
+            "sticky": false,
+            "password": "",
+            "parent": false,
+            "type": "post",
+            "discussion": {
+                "comments_open": true,
+                "comment_status": "open",
+                "pings_open": true,
+                "ping_status": "open",
+                "comment_count": 0
+            },
+            "likes_enabled": true,
+            "sharing_enabled": true,
+            "like_count": 0,
+            "i_like": false,
+            "is_reblogged": false,
+            "is_following": false,
+            "global_ID": "b969f8906a416530689d389f561e1e6f",
+            "featured_image": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg",
+            "post_thumbnail": {
+                "ID": 30,
+                "URL": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg",
+                "guid": "http:\/\/hobbierecs.files.wordpress.com\/2025\/07\/slr-camera-3752493_640.jpg",
+                "mime_type": "image\/jpeg",
+                "width": 640,
+                "height": 366
+            },
+            "format": "standard",
+            "geo": false,
+            "menu_order": 0,
+            "page_template": "",
+            "publicize_URLs": [],
+            "terms": {
+                "category": {
+                    "postitem": {
+                        "ID": 782444199,
+                        "name": "postitem",
+                        "slug": "postitem",
+                        "description": "",
+                        "post_count": 7,
+                        "parent": 0,
+                        "meta": {
+                            "links": {
+                                "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem",
+                                "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem\/help",
+                                "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                            }
+                        }
+                    }
+                },
+                "post_tag": {
+                    "art": {
+                        "ID": 177,
+                        "name": "art",
+                        "slug": "art",
+                        "description": "",
+                        "post_count": 3,
+                        "meta": {
+                            "links": {
+                                "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:art",
+                                "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:art\/help",
+                                "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                            }
+                        }
+                    }
+                },
+                "post_format": {},
+                "mentions": {}
+            },
+            "tags": {
+                "art": {
+                    "ID": 177,
+                    "name": "art",
+                    "slug": "art",
+                    "description": "",
+                    "post_count": 3,
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:art",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:art\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                        }
+                    }
+                }
+            },
+            "categories": {
+                "postitem": {
+                    "ID": 782444199,
+                    "name": "postitem",
+                    "slug": "postitem",
+                    "description": "",
+                    "post_count": 7,
+                    "parent": 0,
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                        }
+                    }
+                }
+            },
+            "attachments": {
+                "30": {
+                    "ID": 30,
+                    "URL": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg",
+                    "guid": "http:\/\/hobbierecs.files.wordpress.com\/2025\/07\/slr-camera-3752493_640.jpg",
+                    "date": "2025-07-13T11:05:11+03:00",
+                    "post_ID": 28,
+                    "author_ID": 109867396,
+                    "file": "slr-camera-3752493_640.jpg",
+                    "mime_type": "image\/jpeg",
+                    "extension": "jpg",
+                    "title": "slr-camera-3752493_640",
+                    "caption": "",
+                    "description": "",
+                    "alt": "camera",
+                    "thumbnails": {
+                        "thumbnail": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=150",
+                        "medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=300",
+                        "large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=640",
+                        "newspack-article-block-landscape-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=640&h=366&crop=1",
+                        "newspack-article-block-portrait-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=640&h=366&crop=1",
+                        "newspack-article-block-square-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=640&h=366&crop=1",
+                        "newspack-article-block-landscape-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=640&h=366&crop=1",
+                        "newspack-article-block-portrait-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=600&h=366&crop=1",
+                        "newspack-article-block-square-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=640&h=366&crop=1",
+                        "newspack-article-block-landscape-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=600&h=366&crop=1",
+                        "newspack-article-block-portrait-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=450&h=366&crop=1",
+                        "newspack-article-block-square-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=600&h=366&crop=1",
+                        "newspack-article-block-landscape-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=400&h=300&crop=1",
+                        "newspack-article-block-portrait-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=300&h=366&crop=1",
+                        "newspack-article-block-square-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=400&h=366&crop=1",
+                        "newspack-article-block-landscape-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=200&h=150&crop=1",
+                        "newspack-article-block-portrait-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=150&h=200&crop=1",
+                        "newspack-article-block-square-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=200&h=200&crop=1",
+                        "newspack-article-block-uncropped": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/slr-camera-3752493_640.jpg?w=640"
+                    },
+                    "height": 366,
+                    "width": 640,
+                    "exif": {
+                        "aperture": "0",
+                        "credit": "",
+                        "camera": "",
+                        "caption": "",
+                        "created_timestamp": "0",
+                        "copyright": "",
+                        "focal_length": "0",
+                        "iso": "0",
+                        "shutter_speed": "0",
+                        "title": "",
+                        "orientation": "0",
+                        "keywords": []
+                    },
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/media\/30",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/media\/30\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228",
+                            "parent": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/28"
+                        }
+                    }
+                }
+            },
+            "attachment_count": 1,
+            "metadata": [
+                {
+                    "id": "177",
+                    "key": "_thumbnail_id",
+                    "value": "30"
+                }
+            ],
+            "meta": {
+                "links": {
+                    "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/28",
+                    "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/28\/help",
+                    "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228",
+                    "replies": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/28\/replies\/",
+                    "likes": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/28\/likes\/"
+                }
+            },
+            "capabilities": {
+                "publish_post": false,
+                "delete_post": false,
+                "edit_post": false
+            },
+            "other_URLs": {}
+        },
+        {
+            "ID": 25,
+            "site_ID": 246259228,
+            "author": {
+                "ID": 109867396,
+                "login": "kurvinenblog",
+                "email": false,
+                "name": "Aki Kurvinen",
+                "first_name": "Aki",
+                "last_name": "Kurvinen",
+                "nice_name": "kurvinenblog",
+                "URL": "http:\/\/kurvinenblog.wordpress.com",
+                "avatar_URL": "https:\/\/1.gravatar.com\/avatar\/1a68ae9bffeaf38d6654d1f481e928710fc4c06f5775aa751aa4cbc3fde928fb?s=96&d=identicon&r=G",
+                "profile_URL": "https:\/\/gravatar.com\/kurvinenblog",
+                "site_ID": 116411433
+            },
+            "date": "2025-07-13T11:00:24+03:00",
+            "modified": "2025-07-13T11:00:24+03:00",
+            "title": "Drawing",
+            "URL": "https:\/\/hobbierecs.wordpress.com\/2025\/07\/13\/drawing\/",
+            "short_URL": "https:\/\/wp.me\/sgFhh2-drawing",
+            "content": "\n<p><strong>Drawing<\/strong> is a <a href=\"https:\/\/en.wikipedia.org\/wiki\/Visual_arts\">visual art<\/a> that uses an instrument to mark <a href=\"https:\/\/en.wikipedia.org\/wiki\/Paper\">paper<\/a> or another <a href=\"https:\/\/en.wikipedia.org\/wiki\/Two-dimensional\">two-dimensional<\/a> surface, or a digital representation of such. Traditionally, the instruments used to make a drawing include <a href=\"https:\/\/en.wikipedia.org\/wiki\/Pencil\">pencils<\/a>, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Crayon\">crayons<\/a>, and <a href=\"https:\/\/en.wikipedia.org\/wiki\/Ink\">ink<\/a> <a href=\"https:\/\/en.wikipedia.org\/wiki\/Pen\">pens<\/a>, sometimes in combination. More modern tools include <a href=\"https:\/\/en.wikipedia.org\/wiki\/Stylus_(computing)\">computer styluses<\/a> with <a href=\"https:\/\/en.wikipedia.org\/wiki\/Graphics_tablet\">graphics tablets<\/a> and <a href=\"https:\/\/en.wikipedia.org\/wiki\/Gamepad\">gamepads<\/a> in <a href=\"https:\/\/en.wikipedia.org\/wiki\/Virtual_reality\">VR<\/a> drawing software.<\/p>\n\n\n\n<p>A drawing instrument releases a small amount of material onto a surface, leaving a visible mark. The most common support for drawing is <a href=\"https:\/\/en.wikipedia.org\/wiki\/Paper\">paper<\/a>, although other materials, such as <a href=\"https:\/\/en.wikipedia.org\/wiki\/Paperboard\">cardboard<\/a>, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Vellum\">vellum<\/a>, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Wood\">wood<\/a>, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Plastic\">plastic<\/a>, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Leather\">leather<\/a>, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Canvas\">canvas<\/a>, and <a href=\"https:\/\/en.wikipedia.org\/wiki\/Lumber\">board<\/a>, have been used. Temporary drawings may be made on a <a href=\"https:\/\/en.wikipedia.org\/wiki\/Blackboard\">blackboard<\/a> or <a href=\"https:\/\/en.wikipedia.org\/wiki\/Whiteboard\">whiteboard<\/a>. Drawing has been a popular and fundamental means of public expression throughout human history. It is one of the simplest and most efficient means of communicating ideas.<sup><a href=\"https:\/\/en.wikipedia.org\/wiki\/Drawing#cite_note-SBTCModule6-1\">[1]<\/a><\/sup> The wide availability of drawing instruments makes drawing one of the most common artistic activities.<\/p>\n\n\n\n<p>In addition to its more artistic forms, drawing is frequently used in commercial <a href=\"https:\/\/en.wikipedia.org\/wiki\/Illustration\">illustration<\/a>, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Traditional_animation\">animation<\/a>, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Architectural_drawing\">architecture<\/a>, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Engineering_drawing\">engineering<\/a>, and <a href=\"https:\/\/en.wikipedia.org\/wiki\/Technical_drawing\">technical drawing<\/a>. A quick, freehand drawing, usually not intended as a finished work, is sometimes called a <a href=\"https:\/\/en.wikipedia.org\/wiki\/Sketch_(drawing)\">sketch<\/a>. An <a href=\"https:\/\/en.wikipedia.org\/wiki\/Artist\">artist<\/a> who practices or works in technical drawing may be called a <a href=\"https:\/\/en.wikipedia.org\/wiki\/Drafter\">drafter<\/a>, draftsman, or draughtsman.<sup><a href=\"https:\/\/en.wikipedia.org\/wiki\/Drawing#cite_note-2\">[2]<\/a><\/sup><\/p>\n\n\n\n<p>(wikipedia)<\/p>\n",
+            "excerpt": "<p>Drawing is a visual art that uses an instrument to mark paper or another two-dimensional surface, or a digital representation of such. Traditionally, the instruments used to make a drawing include pencils, crayons, and ink pens, sometimes in combination. More modern tools include computer styluses with graphics tablets and gamepads in VR drawing software. A [&hellip;]<\/p>\n",
+            "slug": "drawing",
+            "guid": "https:\/\/hobbierecs.wordpress.com\/?p=25",
+            "status": "publish",
+            "sticky": false,
+            "password": "",
+            "parent": false,
+            "type": "post",
+            "discussion": {
+                "comments_open": true,
+                "comment_status": "open",
+                "pings_open": true,
+                "ping_status": "open",
+                "comment_count": 0
+            },
+            "likes_enabled": true,
+            "sharing_enabled": true,
+            "like_count": 0,
+            "i_like": false,
+            "is_reblogged": false,
+            "is_following": false,
+            "global_ID": "ecaae17580f8317baa836dec940c30b5",
+            "featured_image": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg",
+            "post_thumbnail": {
+                "ID": 26,
+                "URL": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg",
+                "guid": "http:\/\/hobbierecs.files.wordpress.com\/2025\/07\/art-9485478_640.jpg",
+                "mime_type": "image\/jpeg",
+                "width": 640,
+                "height": 426
+            },
+            "format": "standard",
+            "geo": false,
+            "menu_order": 0,
+            "page_template": "",
+            "publicize_URLs": [],
+            "terms": {
+                "category": {
+                    "postitem": {
+                        "ID": 782444199,
+                        "name": "postitem",
+                        "slug": "postitem",
+                        "description": "",
+                        "post_count": 7,
+                        "parent": 0,
+                        "meta": {
+                            "links": {
+                                "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem",
+                                "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem\/help",
+                                "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                            }
+                        }
+                    }
+                },
+                "post_tag": {
+                    "art": {
+                        "ID": 177,
+                        "name": "art",
+                        "slug": "art",
+                        "description": "",
+                        "post_count": 3,
+                        "meta": {
+                            "links": {
+                                "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:art",
+                                "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:art\/help",
+                                "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                            }
+                        }
+                    }
+                },
+                "post_format": {},
+                "mentions": {}
+            },
+            "tags": {
+                "art": {
+                    "ID": 177,
+                    "name": "art",
+                    "slug": "art",
+                    "description": "",
+                    "post_count": 3,
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:art",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:art\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                        }
+                    }
+                }
+            },
+            "categories": {
+                "postitem": {
+                    "ID": 782444199,
+                    "name": "postitem",
+                    "slug": "postitem",
+                    "description": "",
+                    "post_count": 7,
+                    "parent": 0,
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                        }
+                    }
+                }
+            },
+            "attachments": {
+                "26": {
+                    "ID": 26,
+                    "URL": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg",
+                    "guid": "http:\/\/hobbierecs.files.wordpress.com\/2025\/07\/art-9485478_640.jpg",
+                    "date": "2025-07-13T11:00:05+03:00",
+                    "post_ID": 25,
+                    "author_ID": 109867396,
+                    "file": "art-9485478_640.jpg",
+                    "mime_type": "image\/jpeg",
+                    "extension": "jpg",
+                    "title": "art-9485478_640",
+                    "caption": "",
+                    "description": "",
+                    "alt": "drawing",
+                    "thumbnails": {
+                        "thumbnail": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=150",
+                        "medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=300",
+                        "large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=640",
+                        "newspack-article-block-landscape-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=640&h=426&crop=1",
+                        "newspack-article-block-portrait-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=640&h=426&crop=1",
+                        "newspack-article-block-square-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=640&h=426&crop=1",
+                        "newspack-article-block-landscape-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=640&h=426&crop=1",
+                        "newspack-article-block-portrait-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=600&h=426&crop=1",
+                        "newspack-article-block-square-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=640&h=426&crop=1",
+                        "newspack-article-block-landscape-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=600&h=426&crop=1",
+                        "newspack-article-block-portrait-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=450&h=426&crop=1",
+                        "newspack-article-block-square-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=600&h=426&crop=1",
+                        "newspack-article-block-landscape-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=400&h=300&crop=1",
+                        "newspack-article-block-portrait-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=300&h=400&crop=1",
+                        "newspack-article-block-square-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=400&h=400&crop=1",
+                        "newspack-article-block-landscape-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=200&h=150&crop=1",
+                        "newspack-article-block-portrait-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=150&h=200&crop=1",
+                        "newspack-article-block-square-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=200&h=200&crop=1",
+                        "newspack-article-block-uncropped": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/art-9485478_640.jpg?w=640"
+                    },
+                    "height": 426,
+                    "width": 640,
+                    "exif": {
+                        "aperture": "0",
+                        "credit": "",
+                        "camera": "",
+                        "caption": "",
+                        "created_timestamp": "0",
+                        "copyright": "",
+                        "focal_length": "0",
+                        "iso": "0",
+                        "shutter_speed": "0",
+                        "title": "",
+                        "orientation": "0",
+                        "keywords": []
+                    },
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/media\/26",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/media\/26\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228",
+                            "parent": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/25"
+                        }
+                    }
+                }
+            },
+            "attachment_count": 1,
+            "metadata": [
+                {
+                    "id": "157",
+                    "key": "_thumbnail_id",
+                    "value": "26"
+                }
+            ],
+            "meta": {
+                "links": {
+                    "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/25",
+                    "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/25\/help",
+                    "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228",
+                    "replies": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/25\/replies\/",
+                    "likes": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/25\/likes\/"
+                }
+            },
+            "capabilities": {
+                "publish_post": false,
+                "delete_post": false,
+                "edit_post": false
+            },
+            "other_URLs": {}
+        },
+        {
+            "ID": 21,
+            "site_ID": 246259228,
+            "author": {
+                "ID": 109867396,
+                "login": "kurvinenblog",
+                "email": false,
+                "name": "Aki Kurvinen",
+                "first_name": "Aki",
+                "last_name": "Kurvinen",
+                "nice_name": "kurvinenblog",
+                "URL": "http:\/\/kurvinenblog.wordpress.com",
+                "avatar_URL": "https:\/\/1.gravatar.com\/avatar\/1a68ae9bffeaf38d6654d1f481e928710fc4c06f5775aa751aa4cbc3fde928fb?s=96&d=identicon&r=G",
+                "profile_URL": "https:\/\/gravatar.com\/kurvinenblog",
+                "site_ID": 116411433
+            },
+            "date": "2025-07-13T10:58:33+03:00",
+            "modified": "2025-07-13T10:58:33+03:00",
+            "title": "Watercolour",
+            "URL": "https:\/\/hobbierecs.wordpress.com\/2025\/07\/13\/watercolour\/",
+            "short_URL": "https:\/\/wp.me\/pgFhh2-l",
+            "content": "\n<p><strong>Watercolor<\/strong> (<a href=\"https:\/\/en.wikipedia.org\/wiki\/American_English\">American English<\/a>) or <strong>watercolour<\/strong> (<a href=\"https:\/\/en.wikipedia.org\/wiki\/Commonwealth_English\">Commonwealth English<\/a>; see <a href=\"https:\/\/en.wikipedia.org\/wiki\/American_and_British_English_spelling_differences#-our,_-or\">spelling differences<\/a>), also <em><strong>aquarelle<\/strong><\/em> (French: <a href=\"https:\/\/en.wikipedia.org\/wiki\/Help:IPA\/French\">[akwa\u0281\u025bl]<\/a>; from Italian diminutive of Latin <em>aqua<\/em> &#8216;water&#8217;),<sup><a href=\"https:\/\/en.wikipedia.org\/wiki\/Watercolor_painting#cite_note-1\">[1]<\/a><\/sup> is a <a href=\"https:\/\/en.wikipedia.org\/wiki\/Painting\">painting<\/a> method<sup><a href=\"https:\/\/en.wikipedia.org\/wiki\/Watercolor_painting#cite_note-London,_Vladimir_p._19-2\">[2]<\/a><\/sup> in which the <a href=\"https:\/\/en.wikipedia.org\/wiki\/Paint\">paints<\/a> are made of <a href=\"https:\/\/en.wikipedia.org\/wiki\/Pigment\">pigments<\/a> suspended in a water-based<sup><a href=\"https:\/\/en.wikipedia.org\/wiki\/Watercolor_painting#cite_note-3\">[3]<\/a><\/sup> solution. <em>Watercolor<\/em> refers to both the <a href=\"https:\/\/en.wikipedia.org\/wiki\/List_of_art_media\">medium<\/a> and the resulting <a href=\"https:\/\/en.wikipedia.org\/wiki\/Work_of_art\">artwork<\/a>. Aquarelles painted with water-soluble colored ink instead of modern water colors are called <em>aquarellum atramento<\/em> (<a href=\"https:\/\/en.wikipedia.org\/wiki\/Latin\">Latin<\/a> for &#8220;aquarelle made with ink&#8221;) by experts. However, this term has now tended to pass out of use.<sup><a href=\"https:\/\/en.wikipedia.org\/wiki\/Watercolor_painting#cite_note-4\">[4]<\/a><a href=\"https:\/\/en.wikipedia.org\/wiki\/Watercolor_painting#cite_note-5\">[5]<\/a><\/sup> <\/p>\n\n\n\n<p>The conventional and most common <a href=\"https:\/\/en.wikipedia.org\/wiki\/Support_(art)\">support<\/a>\u2014material to which the paint is applied\u2014for watercolor paintings is <a href=\"https:\/\/en.wikipedia.org\/wiki\/Watercolor_paper\">watercolor paper<\/a>. Other supports or substrates include stone, ivory, silk, reed, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Papyrus\">papyrus<\/a>, bark papers, plastics, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Vellum\">vellum<\/a>, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Leather\">leather<\/a>, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Textile\">fabric<\/a>, wood, and watercolor canvas (coated with a gesso that is specially formulated for use with watercolors). Watercolor paper is often made entirely or partially with cotton.<sup><a href=\"https:\/\/en.wikipedia.org\/wiki\/Watercolor_painting#cite_note-6\">[6]<\/a><a href=\"https:\/\/en.wikipedia.org\/wiki\/Watercolor_painting#cite_note-7\">[7]<\/a><\/sup> This gives the surface the appropriate texture and minimizes distortion when wet.<sup><a href=\"https:\/\/en.wikipedia.org\/wiki\/Watercolor_painting#cite_note-8\">[8]<\/a><\/sup> Watercolor papers are usually cold-pressed papers that provide better texture and appearance. Transparency is the main characteristic of watercolors. &#8220;It consists of a mixture of pigments, binders such as gum arabic and humectants such as glycerin, which together with other components, allow the color pigment to join and form the paint paste, which we know as watercolor. With regard to the colors, the quality of the pigments and their degree of concentration, it is what determines how good the watercolor is and also its price. A paint that has a high concentration of pigment, professional type, allows us to use it with a large amount of water without losing the intensity of color.&#8221;<sup><a href=\"https:\/\/en.wikipedia.org\/wiki\/Watercolor_painting#cite_note-9\">[9]<\/a><\/sup> Watercolors can also be made opaque by adding <a href=\"https:\/\/en.wikipedia.org\/wiki\/Chinese_white\">Chinese white<\/a>. This is not a method to be used in &#8220;true watercolor&#8221; (traditional).<sup><a href=\"https:\/\/en.wikipedia.org\/wiki\/Watercolor_painting#cite_note-10\">[10]<\/a><\/sup><\/p>\n\n\n\n<p>(wikipedia)<\/p>\n",
+            "excerpt": "<p>Watercolor (American English) or watercolour (Commonwealth English; see spelling differences), also aquarelle (French: [akwa\u0281\u025bl]; from Italian diminutive of Latin aqua &#8216;water&#8217;),[1] is a painting method[2] in which the paints are made of pigments suspended in a water-based[3] solution. Watercolor refers to both the medium and the resulting artwork. Aquarelles painted with water-soluble colored ink instead [&hellip;]<\/p>\n",
+            "slug": "watercolour",
+            "guid": "https:\/\/hobbierecs.wordpress.com\/?p=21",
+            "status": "publish",
+            "sticky": false,
+            "password": "",
+            "parent": false,
+            "type": "post",
+            "discussion": {
+                "comments_open": true,
+                "comment_status": "open",
+                "pings_open": true,
+                "ping_status": "open",
+                "comment_count": 0
+            },
+            "likes_enabled": true,
+            "sharing_enabled": true,
+            "like_count": 0,
+            "i_like": false,
+            "is_reblogged": false,
+            "is_following": false,
+            "global_ID": "01f16086b3b327e7f410bc43129ced6c",
+            "featured_image": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg",
+            "post_thumbnail": {
+                "ID": 23,
+                "URL": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg",
+                "guid": "http:\/\/hobbierecs.files.wordpress.com\/2025\/07\/to-dye-3665051_640.jpg",
+                "mime_type": "image\/jpeg",
+                "width": 640,
+                "height": 427
+            },
+            "format": "standard",
+            "geo": false,
+            "menu_order": 0,
+            "page_template": "",
+            "publicize_URLs": [],
+            "terms": {
+                "category": {
+                    "postitem": {
+                        "ID": 782444199,
+                        "name": "postitem",
+                        "slug": "postitem",
+                        "description": "",
+                        "post_count": 7,
+                        "parent": 0,
+                        "meta": {
+                            "links": {
+                                "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem",
+                                "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem\/help",
+                                "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                            }
+                        }
+                    }
+                },
+                "post_tag": {
+                    "art": {
+                        "ID": 177,
+                        "name": "art",
+                        "slug": "art",
+                        "description": "",
+                        "post_count": 3,
+                        "meta": {
+                            "links": {
+                                "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:art",
+                                "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:art\/help",
+                                "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                            }
+                        }
+                    }
+                },
+                "post_format": {},
+                "mentions": {}
+            },
+            "tags": {
+                "art": {
+                    "ID": 177,
+                    "name": "art",
+                    "slug": "art",
+                    "description": "",
+                    "post_count": 3,
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:art",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:art\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                        }
+                    }
+                }
+            },
+            "categories": {
+                "postitem": {
+                    "ID": 782444199,
+                    "name": "postitem",
+                    "slug": "postitem",
+                    "description": "",
+                    "post_count": 7,
+                    "parent": 0,
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                        }
+                    }
+                }
+            },
+            "attachments": {
+                "23": {
+                    "ID": 23,
+                    "URL": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg",
+                    "guid": "http:\/\/hobbierecs.files.wordpress.com\/2025\/07\/to-dye-3665051_640.jpg",
+                    "date": "2025-07-13T10:57:57+03:00",
+                    "post_ID": 21,
+                    "author_ID": 109867396,
+                    "file": "to-dye-3665051_640.jpg",
+                    "mime_type": "image\/jpeg",
+                    "extension": "jpg",
+                    "title": "to-dye-3665051_640",
+                    "caption": "",
+                    "description": "",
+                    "alt": "watercolor",
+                    "thumbnails": {
+                        "thumbnail": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=150",
+                        "medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=300",
+                        "large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=640",
+                        "newspack-article-block-landscape-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=640&h=427&crop=1",
+                        "newspack-article-block-portrait-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=640&h=427&crop=1",
+                        "newspack-article-block-square-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=640&h=427&crop=1",
+                        "newspack-article-block-landscape-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=640&h=427&crop=1",
+                        "newspack-article-block-portrait-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=600&h=427&crop=1",
+                        "newspack-article-block-square-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=640&h=427&crop=1",
+                        "newspack-article-block-landscape-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=600&h=427&crop=1",
+                        "newspack-article-block-portrait-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=450&h=427&crop=1",
+                        "newspack-article-block-square-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=600&h=427&crop=1",
+                        "newspack-article-block-landscape-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=400&h=300&crop=1",
+                        "newspack-article-block-portrait-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=300&h=400&crop=1",
+                        "newspack-article-block-square-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=400&h=400&crop=1",
+                        "newspack-article-block-landscape-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=200&h=150&crop=1",
+                        "newspack-article-block-portrait-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=150&h=200&crop=1",
+                        "newspack-article-block-square-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=200&h=200&crop=1",
+                        "newspack-article-block-uncropped": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/to-dye-3665051_640.jpg?w=640"
+                    },
+                    "height": 427,
+                    "width": 640,
+                    "exif": {
+                        "aperture": "0",
+                        "credit": "",
+                        "camera": "",
+                        "caption": "",
+                        "created_timestamp": "0",
+                        "copyright": "",
+                        "focal_length": "0",
+                        "iso": "0",
+                        "shutter_speed": "0",
+                        "title": "",
+                        "orientation": "0",
+                        "keywords": []
+                    },
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/media\/23",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/media\/23\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228",
+                            "parent": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/21"
+                        }
+                    }
+                }
+            },
+            "attachment_count": 1,
+            "metadata": [
+                {
+                    "id": "131",
+                    "key": "_thumbnail_id",
+                    "value": "23"
+                }
+            ],
+            "meta": {
+                "links": {
+                    "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/21",
+                    "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/21\/help",
+                    "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228",
+                    "replies": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/21\/replies\/",
+                    "likes": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/21\/likes\/"
+                }
+            },
+            "capabilities": {
+                "publish_post": false,
+                "delete_post": false,
+                "edit_post": false
+            },
+            "other_URLs": {}
+        },
+        {
+            "ID": 19,
+            "site_ID": 246259228,
+            "author": {
+                "ID": 109867396,
+                "login": "kurvinenblog",
+                "email": false,
+                "name": "Aki Kurvinen",
+                "first_name": "Aki",
+                "last_name": "Kurvinen",
+                "nice_name": "kurvinenblog",
+                "URL": "http:\/\/kurvinenblog.wordpress.com",
+                "avatar_URL": "https:\/\/1.gravatar.com\/avatar\/1a68ae9bffeaf38d6654d1f481e928710fc4c06f5775aa751aa4cbc3fde928fb?s=96&d=identicon&r=G",
+                "profile_URL": "https:\/\/gravatar.com\/kurvinenblog",
+                "site_ID": 116411433
+            },
+            "date": "2025-07-08T10:45:10+03:00",
+            "modified": "2025-07-08T10:45:28+03:00",
+            "title": "HobbieRecs",
+            "URL": "https:\/\/hobbierecs.wordpress.com\/2025\/07\/08\/hobbierecs\/",
+            "short_URL": "https:\/\/wp.me\/pgFhh2-j",
+            "content": "\n<p>\u00a9 2025 HobbieRecs<br>Powered by <a href=\"https:\/\/wordpress.com\">WordPress.com<\/a><br>Built with <a href=\"https:\/\/reactjs.org\">React<\/a> and <a href=\"https:\/\/babeljs.io\">Babel<\/a><\/p>\n\n\n\n<p><\/p>\n",
+            "excerpt": "<p>\u00a9 2025 HobbieRecsPowered by WordPress.comBuilt with React and Babel<\/p>\n",
+            "slug": "hobbierecs",
+            "guid": "https:\/\/hobbierecs.wordpress.com\/?p=19",
+            "status": "publish",
+            "sticky": false,
+            "password": "",
+            "parent": false,
+            "type": "post",
+            "discussion": {
+                "comments_open": true,
+                "comment_status": "open",
+                "pings_open": true,
+                "ping_status": "open",
+                "comment_count": 0
+            },
+            "likes_enabled": true,
+            "sharing_enabled": true,
+            "like_count": 0,
+            "i_like": false,
+            "is_reblogged": false,
+            "is_following": false,
+            "global_ID": "b952d5d929d3b5c7f685f2e1199fcd61",
+            "featured_image": "",
+            "post_thumbnail": null,
+            "format": "standard",
+            "geo": false,
+            "menu_order": 0,
+            "page_template": "",
+            "publicize_URLs": [],
+            "terms": {
+                "category": {
+                    "footer": {
+                        "ID": 692528,
+                        "name": "footer",
+                        "slug": "footer",
+                        "description": "",
+                        "post_count": 1,
+                        "parent": 0,
+                        "meta": {
+                            "links": {
+                                "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:footer",
+                                "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:footer\/help",
+                                "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                            }
+                        }
+                    }
+                },
+                "post_tag": {},
+                "post_format": {},
+                "mentions": {}
+            },
+            "tags": {},
+            "categories": {
+                "footer": {
+                    "ID": 692528,
+                    "name": "footer",
+                    "slug": "footer",
+                    "description": "",
+                    "post_count": 1,
+                    "parent": 0,
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:footer",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:footer\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                        }
+                    }
+                }
+            },
+            "attachments": {},
+            "attachment_count": 0,
+            "metadata": [],
+            "meta": {
+                "links": {
+                    "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/19",
+                    "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/19\/help",
+                    "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228",
+                    "replies": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/19\/replies\/",
+                    "likes": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/19\/likes\/"
+                }
+            },
+            "capabilities": {
+                "publish_post": false,
+                "delete_post": false,
+                "edit_post": false
+            },
+            "other_URLs": {}
+        },
+        {
+            "ID": 16,
+            "site_ID": 246259228,
+            "author": {
+                "ID": 109867396,
+                "login": "kurvinenblog",
+                "email": false,
+                "name": "Aki Kurvinen",
+                "first_name": "Aki",
+                "last_name": "Kurvinen",
+                "nice_name": "kurvinenblog",
+                "URL": "http:\/\/kurvinenblog.wordpress.com",
+                "avatar_URL": "https:\/\/1.gravatar.com\/avatar\/1a68ae9bffeaf38d6654d1f481e928710fc4c06f5775aa751aa4cbc3fde928fb?s=96&d=identicon&r=G",
+                "profile_URL": "https:\/\/gravatar.com\/kurvinenblog",
+                "site_ID": 116411433
+            },
+            "date": "2025-07-08T10:41:28+03:00",
+            "modified": "2025-07-13T10:58:57+03:00",
+            "title": "Disc golf",
+            "URL": "https:\/\/hobbierecs.wordpress.com\/2025\/07\/08\/disc-golf\/",
+            "short_URL": "https:\/\/wp.me\/pgFhh2-g",
+            "content": "\n<p><strong>Disc golf<\/strong>, also known as <strong>frisbee golf<\/strong>,<sup><a href=\"https:\/\/en.wikipedia.org\/wiki\/Disc_golf#cite_note-2\">[2]<\/a><\/sup><sup><a href=\"https:\/\/en.wikipedia.org\/wiki\/Disc_golf#cite_note-4\">[a]<\/a><\/sup> is a <a href=\"https:\/\/en.wikipedia.org\/wiki\/Flying_disc_games\">flying disc sport<\/a> in which players throw a disc at a <a href=\"https:\/\/en.wikipedia.org\/wiki\/Basket_(disc_golf)\">target<\/a>, using rules similar to <a href=\"https:\/\/en.wikipedia.org\/wiki\/Golf\">golf<\/a>.<sup><a href=\"https:\/\/en.wikipedia.org\/wiki\/Disc_golf#cite_note-5\">[4]<\/a><\/sup><\/p>\n\n\n\n<p>The sport is usually played on a course with 9 or 18 holes, each consisting of a teeing area and target (basket). Players complete a hole by throwing a disc from a tee pad or tee area toward a basket, throwing again from where the previous throw came to rest, until the disc comes to rest in the designated basket. Disc golf targets are composed of a metal basket supported by a center pole, with chains hanging from an upper band.<sup><a href=\"https:\/\/en.wikipedia.org\/wiki\/Disc_golf#cite_note-6\">[5]<\/a><\/sup> They are designed to catch the incoming discs, which then fall into the basket.<\/p>\n\n\n\n<p>(wikipedia)<\/p>\n",
+            "excerpt": "<p>Disc golf, also known as frisbee golf,[2][a] is a flying disc sport in which players throw a disc at a target, using rules similar to golf.[4] The sport is usually played on a course with 9 or 18 holes, each consisting of a teeing area and target (basket). Players complete a hole by throwing a [&hellip;]<\/p>\n",
+            "slug": "disc-golf",
+            "guid": "https:\/\/hobbierecs.wordpress.com\/?p=16",
+            "status": "publish",
+            "sticky": false,
+            "password": "",
+            "parent": false,
+            "type": "post",
+            "discussion": {
+                "comments_open": true,
+                "comment_status": "open",
+                "pings_open": true,
+                "ping_status": "open",
+                "comment_count": 0
+            },
+            "likes_enabled": true,
+            "sharing_enabled": true,
+            "like_count": 0,
+            "i_like": false,
+            "is_reblogged": false,
+            "is_following": false,
+            "global_ID": "7305ece553d0236ed06fe56c20ac52e3",
+            "featured_image": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg",
+            "post_thumbnail": {
+                "ID": 12,
+                "URL": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg",
+                "guid": "http:\/\/hobbierecs.files.wordpress.com\/2025\/07\/disc-golf-5401318_640.jpg",
+                "mime_type": "image\/jpeg",
+                "width": 640,
+                "height": 360
+            },
+            "format": "standard",
+            "geo": false,
+            "menu_order": 0,
+            "page_template": "",
+            "publicize_URLs": [],
+            "terms": {
+                "category": {
+                    "postitem": {
+                        "ID": 782444199,
+                        "name": "postitem",
+                        "slug": "postitem",
+                        "description": "",
+                        "post_count": 7,
+                        "parent": 0,
+                        "meta": {
+                            "links": {
+                                "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem",
+                                "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem\/help",
+                                "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                            }
+                        }
+                    }
+                },
+                "post_tag": {
+                    "golf": {
+                        "ID": 2306,
+                        "name": "golf",
+                        "slug": "golf",
+                        "description": "",
+                        "post_count": 3,
+                        "meta": {
+                            "links": {
+                                "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:golf",
+                                "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:golf\/help",
+                                "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                            }
+                        }
+                    }
+                },
+                "post_format": {},
+                "mentions": {}
+            },
+            "tags": {
+                "golf": {
+                    "ID": 2306,
+                    "name": "golf",
+                    "slug": "golf",
+                    "description": "",
+                    "post_count": 3,
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:golf",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:golf\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                        }
+                    }
+                }
+            },
+            "categories": {
+                "postitem": {
+                    "ID": 782444199,
+                    "name": "postitem",
+                    "slug": "postitem",
+                    "description": "",
+                    "post_count": 7,
+                    "parent": 0,
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                        }
+                    }
+                }
+            },
+            "attachments": {},
+            "attachment_count": 0,
+            "metadata": [
+                {
+                    "id": "67",
+                    "key": "_thumbnail_id",
+                    "value": "12"
+                }
+            ],
+            "meta": {
+                "links": {
+                    "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/16",
+                    "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/16\/help",
+                    "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228",
+                    "replies": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/16\/replies\/",
+                    "likes": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/16\/likes\/"
+                }
+            },
+            "capabilities": {
+                "publish_post": false,
+                "delete_post": false,
+                "edit_post": false
+            },
+            "other_URLs": {}
+        },
+        {
+            "ID": 14,
+            "site_ID": 246259228,
+            "author": {
+                "ID": 109867396,
+                "login": "kurvinenblog",
+                "email": false,
+                "name": "Aki Kurvinen",
+                "first_name": "Aki",
+                "last_name": "Kurvinen",
+                "nice_name": "kurvinenblog",
+                "URL": "http:\/\/kurvinenblog.wordpress.com",
+                "avatar_URL": "https:\/\/1.gravatar.com\/avatar\/1a68ae9bffeaf38d6654d1f481e928710fc4c06f5775aa751aa4cbc3fde928fb?s=96&d=identicon&r=G",
+                "profile_URL": "https:\/\/gravatar.com\/kurvinenblog",
+                "site_ID": 116411433
+            },
+            "date": "2025-07-08T10:40:44+03:00",
+            "modified": "2025-07-13T10:59:07+03:00",
+            "title": "Minigolf",
+            "URL": "https:\/\/hobbierecs.wordpress.com\/2025\/07\/08\/minigolf\/",
+            "short_URL": "https:\/\/wp.me\/sgFhh2-minigolf",
+            "content": "\n<p><strong>Miniature golf<\/strong> (also known as <strong>minigolf<\/strong>, <strong>putt-putt<\/strong>, <strong>crazy golf<\/strong>, and by <a href=\"https:\/\/en.wikipedia.org\/wiki\/Miniature_golf#Nomenclature\">several other names<\/a>) is an offshoot of the sport of <a href=\"https:\/\/en.wikipedia.org\/wiki\/Golf\">golf<\/a> focusing solely on the <a href=\"https:\/\/en.wikipedia.org\/wiki\/Putting\">putting<\/a> aspect of its parent game. The aim of the game is to score the lowest number of points. It is played on courses consisting of a series of holes (usually a multiple of 9) similar to those of its parent, but the holes are short (usually less than 10 metres from tee to cup).<\/p>\n\n\n\n<p>The game uses artificial putting surfaces (such as carpet, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Artificial_turf\">artificial turf<\/a>, or <a href=\"https:\/\/en.wikipedia.org\/wiki\/Concrete\">concrete<\/a>), a <a href=\"https:\/\/en.wikipedia.org\/wiki\/Geometric\">geometric<\/a> layout often requiring non-traditional putting lines such as bank shots, and artificial obstacles such as tunnels, tubes, ramps, moving obstacles like windmills, and walls made of concrete, metal, or fiberglass. When miniature golf retains many of these characteristics but without the use of any props or obstacles, it is purely a mini version of its parent game.<\/p>\n\n\n\n<p>(wikipedia)<\/p>\n",
+            "excerpt": "<p>Miniature golf (also known as minigolf, putt-putt, crazy golf, and by several other names) is an offshoot of the sport of golf focusing solely on the putting aspect of its parent game. The aim of the game is to score the lowest number of points. It is played on courses consisting of a series of [&hellip;]<\/p>\n",
+            "slug": "minigolf",
+            "guid": "https:\/\/hobbierecs.wordpress.com\/?p=14",
+            "status": "publish",
+            "sticky": false,
+            "password": "",
+            "parent": false,
+            "type": "post",
+            "discussion": {
+                "comments_open": true,
+                "comment_status": "open",
+                "pings_open": true,
+                "ping_status": "open",
+                "comment_count": 0
+            },
+            "likes_enabled": true,
+            "sharing_enabled": true,
+            "like_count": 0,
+            "i_like": false,
+            "is_reblogged": false,
+            "is_following": false,
+            "global_ID": "311e91a543ae0b613c052fae8492e497",
+            "featured_image": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg",
+            "post_thumbnail": {
+                "ID": 11,
+                "URL": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg",
+                "guid": "http:\/\/hobbierecs.files.wordpress.com\/2025\/07\/sport-3268447_640.jpg",
+                "mime_type": "image\/jpeg",
+                "width": 640,
+                "height": 480
+            },
+            "format": "standard",
+            "geo": false,
+            "menu_order": 0,
+            "page_template": "",
+            "publicize_URLs": [],
+            "terms": {
+                "category": {
+                    "postitem": {
+                        "ID": 782444199,
+                        "name": "postitem",
+                        "slug": "postitem",
+                        "description": "",
+                        "post_count": 7,
+                        "parent": 0,
+                        "meta": {
+                            "links": {
+                                "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem",
+                                "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem\/help",
+                                "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                            }
+                        }
+                    }
+                },
+                "post_tag": {
+                    "golf": {
+                        "ID": 2306,
+                        "name": "golf",
+                        "slug": "golf",
+                        "description": "",
+                        "post_count": 3,
+                        "meta": {
+                            "links": {
+                                "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:golf",
+                                "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:golf\/help",
+                                "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                            }
+                        }
+                    }
+                },
+                "post_format": {},
+                "mentions": {}
+            },
+            "tags": {
+                "golf": {
+                    "ID": 2306,
+                    "name": "golf",
+                    "slug": "golf",
+                    "description": "",
+                    "post_count": 3,
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:golf",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:golf\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                        }
+                    }
+                }
+            },
+            "categories": {
+                "postitem": {
+                    "ID": 782444199,
+                    "name": "postitem",
+                    "slug": "postitem",
+                    "description": "",
+                    "post_count": 7,
+                    "parent": 0,
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                        }
+                    }
+                }
+            },
+            "attachments": {},
+            "attachment_count": 0,
+            "metadata": [
+                {
+                    "id": "52",
+                    "key": "_thumbnail_id",
+                    "value": "11"
+                }
+            ],
+            "meta": {
+                "links": {
+                    "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/14",
+                    "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/14\/help",
+                    "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228",
+                    "replies": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/14\/replies\/",
+                    "likes": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/14\/likes\/"
+                }
+            },
+            "capabilities": {
+                "publish_post": false,
+                "delete_post": false,
+                "edit_post": false
+            },
+            "other_URLs": {}
+        },
+        {
+            "ID": 9,
+            "site_ID": 246259228,
+            "author": {
+                "ID": 109867396,
+                "login": "kurvinenblog",
+                "email": false,
+                "name": "Aki Kurvinen",
+                "first_name": "Aki",
+                "last_name": "Kurvinen",
+                "nice_name": "kurvinenblog",
+                "URL": "http:\/\/kurvinenblog.wordpress.com",
+                "avatar_URL": "https:\/\/1.gravatar.com\/avatar\/1a68ae9bffeaf38d6654d1f481e928710fc4c06f5775aa751aa4cbc3fde928fb?s=96&d=identicon&r=G",
+                "profile_URL": "https:\/\/gravatar.com\/kurvinenblog",
+                "site_ID": 116411433
+            },
+            "date": "2025-07-08T10:39:50+03:00",
+            "modified": "2025-07-13T10:59:17+03:00",
+            "title": "Golf",
+            "URL": "https:\/\/hobbierecs.wordpress.com\/2025\/07\/08\/golf\/",
+            "short_URL": "https:\/\/wp.me\/sgFhh2-golf",
+            "content": "\n<p><strong>Golf<\/strong> is a club-and-ball <a href=\"https:\/\/en.wikipedia.org\/wiki\/Sport\">sport<\/a> in which players use various <a href=\"https:\/\/en.wikipedia.org\/wiki\/Golf_club\">clubs<\/a> to hit a <a href=\"https:\/\/en.wikipedia.org\/wiki\/Golf_ball\">ball<\/a> into a series of holes on a <a href=\"https:\/\/en.wikipedia.org\/wiki\/Golf_course\">course<\/a> in as few strokes as possible.<\/p>\n\n\n\n<p>Golf, unlike most <a href=\"https:\/\/en.wikipedia.org\/wiki\/Ball_game\">ball games<\/a>, cannot and does not use a standardized playing area, and coping with the varied terrains encountered on different courses is a key part of the game. Courses typically have either 9 or 18 <a href=\"https:\/\/en.wikipedia.org\/wiki\/Glossary_of_golf#Hole\"><em>holes<\/em><\/a>, regions of terrain that each contain a <em>cup<\/em>, the hole that receives the ball. Each hole on a course has a <a href=\"https:\/\/en.wikipedia.org\/wiki\/Teeing_ground\">teeing ground<\/a> for the hole&#8217;s first stroke, and a <a href=\"https:\/\/en.wikipedia.org\/wiki\/Putting_green\">putting green<\/a> containing the cup. There are several standard forms of terrain between the tee and the green, such as the fairway, rough (tall grass), and various <a href=\"https:\/\/en.wikipedia.org\/wiki\/Hazard_(golf)\"><em>hazards<\/em><\/a> that may be water, rocks, or sand-filled <a href=\"https:\/\/en.wikipedia.org\/wiki\/Glossary_of_golf#Bunker\"><em>bunkers<\/em><\/a>. Each hole on a course is unique in its specific layout. Many golf courses are designed to resemble their native landscape, such as along a sea coast (where the course is called a <a href=\"https:\/\/en.wikipedia.org\/wiki\/Links_(golf)\"><em>links<\/em><\/a>), within a forest, among rolling hills, or part of a <a href=\"https:\/\/en.wikipedia.org\/wiki\/Desert\">desert<\/a>.<\/p>\n\n\n\n<p>(wikipedia)<\/p>\n",
+            "excerpt": "<p>Golf is a club-and-ball sport in which players use various clubs to hit a ball into a series of holes on a course in as few strokes as possible. Golf, unlike most ball games, cannot and does not use a standardized playing area, and coping with the varied terrains encountered on different courses is a [&hellip;]<\/p>\n",
+            "slug": "golf",
+            "guid": "https:\/\/hobbierecs.wordpress.com\/?p=9",
+            "status": "publish",
+            "sticky": false,
+            "password": "",
+            "parent": false,
+            "type": "post",
+            "discussion": {
+                "comments_open": true,
+                "comment_status": "open",
+                "pings_open": true,
+                "ping_status": "open",
+                "comment_count": 0
+            },
+            "likes_enabled": true,
+            "sharing_enabled": true,
+            "like_count": 0,
+            "i_like": false,
+            "is_reblogged": false,
+            "is_following": false,
+            "global_ID": "15506bde76ed934d59bf56dc783bd5ea",
+            "featured_image": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg",
+            "post_thumbnail": {
+                "ID": 10,
+                "URL": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg",
+                "guid": "http:\/\/hobbierecs.files.wordpress.com\/2025\/07\/golf-1486354_640.jpg",
+                "mime_type": "image\/jpeg",
+                "width": 640,
+                "height": 427
+            },
+            "format": "standard",
+            "geo": false,
+            "menu_order": 0,
+            "page_template": "",
+            "publicize_URLs": [],
+            "terms": {
+                "category": {
+                    "postitem": {
+                        "ID": 782444199,
+                        "name": "postitem",
+                        "slug": "postitem",
+                        "description": "",
+                        "post_count": 7,
+                        "parent": 0,
+                        "meta": {
+                            "links": {
+                                "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem",
+                                "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem\/help",
+                                "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                            }
+                        }
+                    }
+                },
+                "post_tag": {
+                    "golf": {
+                        "ID": 2306,
+                        "name": "golf",
+                        "slug": "golf",
+                        "description": "",
+                        "post_count": 3,
+                        "meta": {
+                            "links": {
+                                "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:golf",
+                                "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:golf\/help",
+                                "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                            }
+                        }
+                    }
+                },
+                "post_format": {},
+                "mentions": {}
+            },
+            "tags": {
+                "golf": {
+                    "ID": 2306,
+                    "name": "golf",
+                    "slug": "golf",
+                    "description": "",
+                    "post_count": 3,
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:golf",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/tags\/slug:golf\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                        }
+                    }
+                }
+            },
+            "categories": {
+                "postitem": {
+                    "ID": 782444199,
+                    "name": "postitem",
+                    "slug": "postitem",
+                    "description": "",
+                    "post_count": 7,
+                    "parent": 0,
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:postitem\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                        }
+                    }
+                }
+            },
+            "attachments": {
+                "12": {
+                    "ID": 12,
+                    "URL": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg",
+                    "guid": "http:\/\/hobbierecs.files.wordpress.com\/2025\/07\/disc-golf-5401318_640.jpg",
+                    "date": "2025-07-08T10:38:54+03:00",
+                    "post_ID": 9,
+                    "author_ID": 109867396,
+                    "file": "disc-golf-5401318_640.jpg",
+                    "mime_type": "image\/jpeg",
+                    "extension": "jpg",
+                    "title": "disc-golf-5401318_640",
+                    "caption": "",
+                    "description": "",
+                    "alt": "discgolf",
+                    "thumbnails": {
+                        "thumbnail": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=150",
+                        "medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=300",
+                        "large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=640",
+                        "newspack-article-block-landscape-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=640&h=360&crop=1",
+                        "newspack-article-block-portrait-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=640&h=360&crop=1",
+                        "newspack-article-block-square-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=640&h=360&crop=1",
+                        "newspack-article-block-landscape-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=640&h=360&crop=1",
+                        "newspack-article-block-portrait-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=600&h=360&crop=1",
+                        "newspack-article-block-square-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=640&h=360&crop=1",
+                        "newspack-article-block-landscape-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=600&h=360&crop=1",
+                        "newspack-article-block-portrait-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=450&h=360&crop=1",
+                        "newspack-article-block-square-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=600&h=360&crop=1",
+                        "newspack-article-block-landscape-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=400&h=300&crop=1",
+                        "newspack-article-block-portrait-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=300&h=360&crop=1",
+                        "newspack-article-block-square-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=400&h=360&crop=1",
+                        "newspack-article-block-landscape-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=200&h=150&crop=1",
+                        "newspack-article-block-portrait-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=150&h=200&crop=1",
+                        "newspack-article-block-square-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=200&h=200&crop=1",
+                        "newspack-article-block-uncropped": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/disc-golf-5401318_640.jpg?w=640"
+                    },
+                    "height": 360,
+                    "width": 640,
+                    "exif": {
+                        "aperture": "0",
+                        "credit": "",
+                        "camera": "",
+                        "caption": "",
+                        "created_timestamp": "0",
+                        "copyright": "",
+                        "focal_length": "0",
+                        "iso": "0",
+                        "shutter_speed": "0",
+                        "title": "",
+                        "orientation": "0",
+                        "keywords": []
+                    },
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/media\/12",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/media\/12\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228",
+                            "parent": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/9"
+                        }
+                    }
+                },
+                "11": {
+                    "ID": 11,
+                    "URL": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg",
+                    "guid": "http:\/\/hobbierecs.files.wordpress.com\/2025\/07\/sport-3268447_640.jpg",
+                    "date": "2025-07-08T10:38:52+03:00",
+                    "post_ID": 9,
+                    "author_ID": 109867396,
+                    "file": "sport-3268447_640.jpg",
+                    "mime_type": "image\/jpeg",
+                    "extension": "jpg",
+                    "title": "sport-3268447_640",
+                    "caption": "",
+                    "description": "",
+                    "alt": "minigolf",
+                    "thumbnails": {
+                        "thumbnail": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=150",
+                        "medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=300",
+                        "large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=640",
+                        "newspack-article-block-landscape-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=640&h=480&crop=1",
+                        "newspack-article-block-portrait-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=640&h=480&crop=1",
+                        "newspack-article-block-square-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=640&h=480&crop=1",
+                        "newspack-article-block-landscape-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=640&h=480&crop=1",
+                        "newspack-article-block-portrait-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=600&h=480&crop=1",
+                        "newspack-article-block-square-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=640&h=480&crop=1",
+                        "newspack-article-block-landscape-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=600&h=450&crop=1",
+                        "newspack-article-block-portrait-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=450&h=480&crop=1",
+                        "newspack-article-block-square-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=600&h=480&crop=1",
+                        "newspack-article-block-landscape-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=400&h=300&crop=1",
+                        "newspack-article-block-portrait-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=300&h=400&crop=1",
+                        "newspack-article-block-square-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=400&h=400&crop=1",
+                        "newspack-article-block-landscape-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=200&h=150&crop=1",
+                        "newspack-article-block-portrait-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=150&h=200&crop=1",
+                        "newspack-article-block-square-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=200&h=200&crop=1",
+                        "newspack-article-block-uncropped": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/sport-3268447_640.jpg?w=640"
+                    },
+                    "height": 480,
+                    "width": 640,
+                    "exif": {
+                        "aperture": "0",
+                        "credit": "",
+                        "camera": "",
+                        "caption": "",
+                        "created_timestamp": "0",
+                        "copyright": "",
+                        "focal_length": "0",
+                        "iso": "0",
+                        "shutter_speed": "0",
+                        "title": "",
+                        "orientation": "0",
+                        "keywords": []
+                    },
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/media\/11",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/media\/11\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228",
+                            "parent": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/9"
+                        }
+                    }
+                },
+                "10": {
+                    "ID": 10,
+                    "URL": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg",
+                    "guid": "http:\/\/hobbierecs.files.wordpress.com\/2025\/07\/golf-1486354_640.jpg",
+                    "date": "2025-07-08T10:38:51+03:00",
+                    "post_ID": 9,
+                    "author_ID": 109867396,
+                    "file": "golf-1486354_640.jpg",
+                    "mime_type": "image\/jpeg",
+                    "extension": "jpg",
+                    "title": "golf-1486354_640",
+                    "caption": "",
+                    "description": "",
+                    "alt": "golf",
+                    "thumbnails": {
+                        "thumbnail": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=150",
+                        "medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=300",
+                        "large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=640",
+                        "newspack-article-block-landscape-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=640&h=427&crop=1",
+                        "newspack-article-block-portrait-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=640&h=427&crop=1",
+                        "newspack-article-block-square-large": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=640&h=427&crop=1",
+                        "newspack-article-block-landscape-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=640&h=427&crop=1",
+                        "newspack-article-block-portrait-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=600&h=427&crop=1",
+                        "newspack-article-block-square-medium": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=640&h=427&crop=1",
+                        "newspack-article-block-landscape-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=600&h=427&crop=1",
+                        "newspack-article-block-portrait-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=450&h=427&crop=1",
+                        "newspack-article-block-square-intermediate": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=600&h=427&crop=1",
+                        "newspack-article-block-landscape-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=400&h=300&crop=1",
+                        "newspack-article-block-portrait-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=300&h=400&crop=1",
+                        "newspack-article-block-square-small": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=400&h=400&crop=1",
+                        "newspack-article-block-landscape-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=200&h=150&crop=1",
+                        "newspack-article-block-portrait-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=150&h=200&crop=1",
+                        "newspack-article-block-square-tiny": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=200&h=200&crop=1",
+                        "newspack-article-block-uncropped": "https:\/\/hobbierecs.wordpress.com\/wp-content\/uploads\/2025\/07\/golf-1486354_640.jpg?w=640"
+                    },
+                    "height": 427,
+                    "width": 640,
+                    "exif": {
+                        "aperture": "0",
+                        "credit": "",
+                        "camera": "",
+                        "caption": "",
+                        "created_timestamp": "0",
+                        "copyright": "",
+                        "focal_length": "0",
+                        "iso": "0",
+                        "shutter_speed": "0",
+                        "title": "",
+                        "orientation": "0",
+                        "keywords": []
+                    },
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/media\/10",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/media\/10\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228",
+                            "parent": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/9"
+                        }
+                    }
+                }
+            },
+            "attachment_count": 3,
+            "metadata": [
+                {
+                    "id": "37",
+                    "key": "_thumbnail_id",
+                    "value": "10"
+                }
+            ],
+            "meta": {
+                "links": {
+                    "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/9",
+                    "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/9\/help",
+                    "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228",
+                    "replies": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/9\/replies\/",
+                    "likes": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/9\/likes\/"
+                }
+            },
+            "capabilities": {
+                "publish_post": false,
+                "delete_post": false,
+                "edit_post": false
+            },
+            "other_URLs": {}
+        },
+        {
+            "ID": 3,
+            "site_ID": 246259228,
+            "author": {
+                "ID": 109867396,
+                "login": "kurvinenblog",
+                "email": false,
+                "name": "Aki Kurvinen",
+                "first_name": "Aki",
+                "last_name": "Kurvinen",
+                "nice_name": "kurvinenblog",
+                "URL": "http:\/\/kurvinenblog.wordpress.com",
+                "avatar_URL": "https:\/\/1.gravatar.com\/avatar\/1a68ae9bffeaf38d6654d1f481e928710fc4c06f5775aa751aa4cbc3fde928fb?s=96&d=identicon&r=G",
+                "profile_URL": "https:\/\/gravatar.com\/kurvinenblog",
+                "site_ID": 116411433
+            },
+            "date": "2025-07-08T07:29:04+00:00",
+            "modified": "2025-07-08T10:45:38+03:00",
+            "title": "Hobbies to try out",
+            "URL": "https:\/\/hobbierecs.wordpress.com\/2025\/07\/08\/hello-world\/",
+            "short_URL": "https:\/\/wp.me\/pgFhh2-3",
+            "content": "\n<p>Find your passion!<\/p>\n\n\n\n<p><\/p>\n",
+            "excerpt": "<p>Find your passion!<\/p>\n",
+            "slug": "hello-world",
+            "guid": "https:\/\/hobbierecs.wordpress.com\/2025\/07\/08\/hello-world\/",
+            "status": "publish",
+            "sticky": false,
+            "password": "",
+            "parent": false,
+            "type": "post",
+            "discussion": {
+                "comments_open": true,
+                "comment_status": "open",
+                "pings_open": true,
+                "ping_status": "open",
+                "comment_count": 0
+            },
+            "likes_enabled": true,
+            "sharing_enabled": false,
+            "like_count": 0,
+            "i_like": false,
+            "is_reblogged": false,
+            "is_following": false,
+            "global_ID": "9f36cb5e323eba32d4a159e53477a043",
+            "featured_image": "",
+            "post_thumbnail": null,
+            "format": "standard",
+            "geo": false,
+            "menu_order": 0,
+            "page_template": "",
+            "publicize_URLs": [],
+            "terms": {
+                "category": {
+                    "header": {
+                        "ID": 5357,
+                        "name": "header",
+                        "slug": "header",
+                        "description": "",
+                        "post_count": 1,
+                        "parent": 0,
+                        "meta": {
+                            "links": {
+                                "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:header",
+                                "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:header\/help",
+                                "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                            }
+                        }
+                    }
+                },
+                "post_tag": {},
+                "post_format": {},
+                "mentions": {}
+            },
+            "tags": {},
+            "categories": {
+                "header": {
+                    "ID": 5357,
+                    "name": "header",
+                    "slug": "header",
+                    "description": "",
+                    "post_count": 1,
+                    "parent": 0,
+                    "meta": {
+                        "links": {
+                            "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:header",
+                            "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/categories\/slug:header\/help",
+                            "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228"
+                        }
+                    }
+                }
+            },
+            "attachments": {},
+            "attachment_count": 0,
+            "metadata": [],
+            "meta": {
+                "links": {
+                    "self": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/3",
+                    "help": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/3\/help",
+                    "site": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228",
+                    "replies": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/3\/replies\/",
+                    "likes": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/posts\/3\/likes\/"
+                }
+            },
+            "capabilities": {
+                "publish_post": false,
+                "delete_post": false,
+                "edit_post": false
+            },
+            "other_URLs": {}
+        }
+    ],
+    "meta": {
+        "links": {
+            "counts": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/246259228\/post-counts\/post"
+        },
+        "wpcom": true
+    }
+}

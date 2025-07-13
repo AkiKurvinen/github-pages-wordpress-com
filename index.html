@@ -32,7 +32,7 @@
         function Nav({ tag, meta, allTags = [], setTag, activelink }) {
             return (
                 <nav className="navbar">
-                    <a href="/" className="logo" onClick={() => setTag(null)}>{meta.name}</a>
+                    <a href="./" className="logo" onClick={() => setTag(null)}>{meta.name}</a>
                     <ul className="nav-list">
                         <li className={activelink == "all" ? "nav-link-active" : ""}>
                             <a className="nav-link" href="#hobbies" onClick={() => setTag(null)}>All</a>

@@ -5,8 +5,7 @@
   - category: footer -> content for footer
   - category: postitem -> render wp posts as grid
 - Uses WP post tags to populate navigation
- - tags: art -> filter and show posts with tag "art"
- - tags: golf -> filter and show posts with tag "golf"
+  - tags: art -> filter and show posts with tag "art"
 
 ## Development
 - Open index.html with Live Server plugin (VS Code) 

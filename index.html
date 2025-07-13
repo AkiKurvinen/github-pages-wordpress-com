@@ -29,17 +29,29 @@
         }
 
         // COMPONENTS
-        function Header({ meta, header }) {
+        function Nav({ tag, meta, allTags = [], setTag, activelink }) {
+            return (
+                <nav className="navbar">
+                    <a href="/" className="logo" onClick={() => setTag(null)}>{meta.name}</a>
+                    <ul className="nav-list">
+                        <li className={activelink == "all" ? "nav-link-active" : ""}>
+                            <a className="nav-link" href="#hobbies" onClick={() => setTag(null)}>All</a>
+                        </li>
+                        {allTags && allTags.map((tg) =>
+                            <li key={tg} className={activelink == tg ? "nav-link-active" : ""}><a className="nav-link" href="#hobbies" onClick={() => setTag(tg)}>{tg}</a></li>
+                        )}
+                        <li><a className="nav-link" href="#about">About</a></li>
+                    </ul>
+                </nav>
+
+            );
+        }
+
+        function Header({ meta, header, tag, allTags, setTag, activelink }) {
             return (
                 <>
                     <header className="site-header">
-                        <nav className="navbar">
-                            <a href="#" className="logo">{meta.name}</a>
-                            <ul className="nav-list">
-                                <li><a className="nav-link" href="#hobbies">Hobbies</a></li>
-                                <li><a className="nav-link" href="#about">About</a></li>
-                            </ul>
-                        </nav>
+                        <Nav tag={tag} meta={meta} allTags={allTags} setTag={setTag} activelink={activelink} />
                     </header>
                     <div className="hero">
                         <p className="herotext" >{header.title}</p>
@@ -135,52 +147,88 @@
                     return new Promise(resolve => setTimeout(resolve, ms));
                 }
                 await delay(2000);
-                site_url = 'json/wpsite.json'
-                posts_url = 'json/wpposts.json'
+                site_url = 'json/meta.json'
+                posts_url = 'json/posts.json'
             }
             return Promise.all([
                 fetch(site_url).then(r => r.json()),
                 fetch(posts_url).then(r => r.json())
             ]).then(([meta, posts]) => ({ meta, posts }));
         }
+        function App({ meta, posts }) {
+            const [activelink, setActivelink] = React.useState('all');
+            const [tag, setTag] = React.useState(null);
+            const [allTags, setallTags] = React.useState(null);
+
+            function handgeTagChange(tg) {
+                setTag(tg);
+                setActivelink(tg || 'all');
+            }
+
+            function findUniqueTags(items) {
+                const tagsSet = new Set();
+                items.forEach(post => {
+                    if (post.tags && typeof post.tags === 'object') {
+                        Object.values(post.tags).forEach(tagObj => {
+                            if (tagObj && tagObj.name) tagsSet.add(tagObj.name);
+                        });
+                    }
+                });
+                return Array.from(tagsSet).sort();
+            }
+
+            let items = posts.posts.filter(post => post.categories && Object.keys(post.categories).includes("postitem"));
+
+            if (tag) {
+                items = items.filter(post => post.tags && Object.values(post.tags).some(tagObj => tagObj.name === tag));
+            }
+
+            let header = posts.posts.filter(post => post.categories && Object.keys(post.categories).includes("header"))[0];
+            let footer = posts.posts.filter(post => post.categories && Object.keys(post.categories).includes("footer"))[0];
+            document.title = meta.name;
+
+            if (!allTags) setallTags(findUniqueTags(posts.posts));
+            if (meta.icon) {
+                let favicon = document.querySelector('link[rel~="icon"]');
+                if (!favicon) {
+                    favicon = document.createElement('link');
+                    favicon.rel = 'icon';
+                    document.head.appendChild(favicon);
+                }
+                favicon.href = meta.icon.img;
+            }
+            return (
+                <div className="app">
+                    <Header meta={meta} header={header} allTags={allTags} tag={tag} setTag={handgeTagChange} activelink={activelink} setActivelink={setActivelink} />
+                    <div id="container">
+                        <h1 id="hobbies">Hobbies {tag && ` / ${tag}`}</h1>
+                        <CardsList posts={items} />
+                    </div>
+                    <Footer footer={footer} />
+                </div>
+            );
+        }
 
         async function main() {
             const domNode = document.getElementById('root');
             const root = ReactDOM.createRoot(domNode);
+
             root.render(
                 <>
                     <HeaderSkeleton />
-                    <CardsListSkeleton />
+                    <div id="container">
+                        <CardsListSkeleton />
+                    </div>
                 </>
             );
 
             try {
                 const { meta, posts } = await fetchWPContent();
-
-                let items = posts.posts.filter(post => post.categories && Object.keys(post.categories).includes("postitem"));
-                let header = posts.posts.filter(post => post.categories && Object.keys(post.categories).includes("header"))[0];
-                let footer = posts.posts.filter(post => post.categories && Object.keys(post.categories).includes("footer"))[0];
-
-                document.title = meta.name;
-                if (meta.icon) {
-                    let favicon = document.querySelector('link[rel~="icon"]');
-                    if (!favicon) {
-                        favicon = document.createElement('link');
-                        favicon.rel = 'icon';
-                        document.head.appendChild(favicon);
-                    }
-                    favicon.href = meta.icon.img;
-                }
                 root.render(
-                    <>
-                        <Header meta={meta} header={header} />
-                        <div id="container">
-                            <h1 id="hobbies">Hobbies</h1>
-                            <CardsList posts={items} />
-                        </div>
-                        <Footer footer={footer} />
-                    </>);
+                    <App meta={meta} posts={posts} />
+                );
             } catch (error) {
+                console.error("Failed to load posts:", error);
                 root.render(<div style={{ color: 'red' }}>Failed to load posts.</div>);
             }
         }

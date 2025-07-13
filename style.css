@@ -14,6 +14,12 @@ html {
     background: var(--bg-light);
     color: var(--bg-dark);
     scroll-behavior: smooth;
+
+}
+
+h1 {
+    scroll-margin-block-start: 2em;
+    text-transform: capitalize;
 }
 
 body {
@@ -64,6 +70,11 @@ body {
     font-weight: 500;
     transition: color 0.2s;
     padding: 0.25em 0.5em;
+    text-transform: capitalize;
+}
+
+.nav-link-active a {
+    color: var(--primary-light);
 }
 
 .nav-link:hover {

@@ -8,7 +8,14 @@
   - tags: art -> filter and show posts with tag "art"
 
 ## Development
+- Set TESTMODE true to use local JSON files
 - Open index.html with Live Server plugin (VS Code) 
-- TESTMODE variable in index.html
-  - true -> use mock data files from json/ folder
-  - false -> fetch actual data from wordpress.com blog
+
+## Settings
+Configure variables in index.html
+- TESTMODE
+  - true -> Use mock data files from json/ folder
+  - false -> Fetch actual data from wordpress.com blog
+- EXPANDCARD
+  - true -> Clicking "Read more" expands card to show all text in blog post
+  - false -> Clicking "Read more" opens single blog post view

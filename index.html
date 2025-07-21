@@ -21,6 +21,11 @@
     <script type="text/babel">
         // Babel standalone in the browser does not support ES module imports (import/export) or require
 
+        const WPSITENAME = "hobbierecs"
+        const WPSITENUMBER = "246259228"
+        const TESTMODE = false
+        const EXPANDCARD = false
+
         // UTILITY 
         function stripHtml(html) {
             const tmp = document.createElement('div');
@@ -29,21 +34,23 @@
         }
 
         // COMPONENTS
-        function Nav({ tag, meta, allTags = [], setTag, activelink }) {
+        function Nav({ tag, meta, allTags = [], setTag, closeMobileNav, activelink }) {
             return (
-                <nav className="navbar">
+                <nav>
                     <a href="./" className="logo" onClick={() => setTag(null)}>{meta.name}</a>
-                    <ul className="nav-list">
+
+                    <input type="checkbox" id="menu_box" />
+                    <label className="burger" htmlFor="menu_box"></label>
+                    <ul>
                         <li className={activelink == "all" ? "nav-link-active" : ""}>
-                            <a className="nav-link" href="#hobbies" onClick={() => setTag(null)}>All</a>
+                            <a href="#hobbies" onClick={() => setTag(null)}>All</a>
                         </li>
                         {allTags && allTags.map((tg) =>
-                            <li key={tg} className={activelink == tg ? "nav-link-active" : ""}><a className="nav-link" href="#hobbies" onClick={() => setTag(tg)}>{tg}</a></li>
+                            <li key={tg} className={activelink == tg ? "nav-link-active" : ""}><a href="#hobbies" onClick={() => setTag(tg)}>{tg}</a></li>
                         )}
-                        <li><a className="nav-link" href="#about">About</a></li>
+                        <li><a href="#about" onClick={() => document.getElementById('menu_box').checked = false}>About</a></li>
                     </ul>
                 </nav>
-
             );
         }
 
@@ -68,13 +75,14 @@
                 </footer>)
         }
 
-        function Card({ post }) {
+        function Card({ post, setSlug }) {
             const [showFull, setShowFull] = React.useState(false);
             const headerImg = post.featured_image || (post.attachments && Object.values(post.attachments)[0]?.URL) || post.thumbnail || null;
             // Detect if excerpt and content are the same (ignoring HTML)
             const excerptText = stripHtml(post.excerpt);
             const contentText = stripHtml(post.content);
             const fitsExcerpt = excerptText === contentText;
+
             return (
                 <div className="card">
                     <div className="card-title">{post.title}</div>
@@ -86,7 +94,7 @@
                             <>
                                 <p className="card-excerpt" dangerouslySetInnerHTML={{ __html: post.excerpt }}></p>
                                 {!fitsExcerpt && (
-                                    <button className="card-btn" onClick={() => setShowFull(true)}>Read more</button>
+                                    <button className="card-btn" onClick={() => EXPANDCARD ? setShowFull(true) : setSlug(post.slug)}>Read more</button>
                                 )}
                             </>
                         ) : (
@@ -99,11 +107,25 @@
                 </div>
             );
         }
+        function SinglePost({ post, slug }) {
+            if (!post) {
+                return <div className="single-post-empty">{`No post "${slug}" found.`}</div>;
+            }
+            const headerImg = post.featured_image || (post.attachments && Object.values(post.attachments)[0]?.URL) || post.thumbnail || null;
+            return (
+                <div className="single-post">
+                    {headerImg && (
+                        <img className="single-post-image" src={headerImg} alt="Post header" />
+                    )}
+                    <div className="single-post-content" dangerouslySetInnerHTML={{ __html: post.content }}></div>
+                </div>
+            );
+        }
 
-        function CardsList({ posts }) {
+        function CardsList({ posts, setSlug, setTag }) {
             return (
                 <div className="cards-list">
-                    {posts.map(post => <Card key={post.ID} post={post} />)}
+                    {posts.map(post => <Card key={post.ID} post={post} setSlug={setSlug} setTag={setTag} />)}
                 </div>
             );
         }
@@ -133,10 +155,17 @@
                 </div>
             );
         }
+        function SinglePostSkeleton() {
+            return (
+                <div className="single-post-skeleton">
 
-        const WPSITENAME = "hobbierecs"
-        const WPSITENUMBER = "246259228"
-        const TESTMODE = false
+                    <div className="ssc-square" style={{ height: '50px' }}></div>
+                    <div className="ssc-square hero" style={{ height: '230px' }}></div>
+                </div>
+            );
+        }
+
+
 
         // CONTROLLERS
         async function fetchWPContent() {
@@ -155,14 +184,91 @@
                 fetch(posts_url).then(r => r.json())
             ]).then(([meta, posts]) => ({ meta, posts }));
         }
+        function Breadcrumbs({ tag, slug, setTag, setSlug }) {
+            console.log("Breadcrumbs", tag, slug);
+            if (!tag && !slug) {
+                return null;
+            }
+            else if (tag == 'all') {
+                return null;
+            }
+            else if (slug && !tag) {
+                return (
+                    <div className="breadcrumbs">
+                        <span className="breadcrumb-item" onClick={() => { setSlug(null); setTag(null); }}>All</span>
+                        <span className="breadcrumb-item">{slug}</span>
+                    </div>
+                );
+            }
+            return (
+                <div className="breadcrumbs">
+
+                    <span className="breadcrumb-item" onClick={() => { setSlug(null); setTag(null); }}>All</span>
+
+                    {tag && (
+                        <span className="breadcrumb-item" onClick={() => { setSlug(null); setTag(tag); }}>{tag}</span>
+                    )}
+
+                    {slug && (
+                        <span className="breadcrumb-item">{slug}</span>
+                    )}
+                </div>
+            );
+        }
         function App({ meta, posts }) {
             const [activelink, setActivelink] = React.useState('all');
             const [tag, setTag] = React.useState(null);
             const [allTags, setallTags] = React.useState(null);
+            const [slug, setSlug] = React.useState(null);
+
+            // On mount, check for slug param in URL and setSlug if present
+            React.useEffect(() => {
+                const params = new URLSearchParams(window.location.search);
+                const urlSlug = params.get('slug');
+                if (urlSlug) {
+                    setSlug(urlSlug);
+                }
+            }, []);
+
+            function findPostBySlug() {
+                if (!slug) return null;
+                return posts.posts.find(post => post.slug === slug);
+            }
+            function closeMobileNav() {
+                const menuBox = document.getElementById('menu_box');
+                if (menuBox) {
+                    menuBox.checked = false;
+                }
+            }
 
             function handgeTagChange(tg) {
                 setTag(tg);
+                setSlug(null);
                 setActivelink(tg || 'all');
+                closeMobileNav();
+                // Update URL with tag param, remove slug param
+                const url = new URL(window.location.href);
+                if (tg) {
+                    url.searchParams.set('tag', tg);
+                } else {
+                    url.searchParams.delete('tag');
+                }
+                url.searchParams.delete('slug');
+                window.history.pushState({}, '', url);
+            }
+            function handleSlugChange(slug, tag) {
+                setSlug(slug);
+                setTag(tag);
+                // setActivelink('all');
+                // Update URL with slug param, remove tag param
+                const url = new URL(window.location.href);
+                if (slug) {
+                    url.searchParams.set('slug', slug);
+                    url.searchParams.delete('tag');
+                } else {
+                    url.searchParams.delete('slug');
+                }
+                window.history.pushState({}, '', url);
             }
 
             function findUniqueTags(items) {
@@ -201,8 +307,10 @@
                 <div className="app">
                     <Header meta={meta} header={header} allTags={allTags} tag={tag} setTag={handgeTagChange} activelink={activelink} setActivelink={setActivelink} />
                     <div id="container">
-                        <h1 id="hobbies">Hobbies {tag && ` / ${tag}`}</h1>
-                        <CardsList posts={items} />
+                        <h1 id="hobbies">{!tag && !slug && "Hobbies"} {tag && !slug && tag + ' hobbies'} {slug && slug}</h1>
+                        <Breadcrumbs tag={slug && Object.keys(findPostBySlug().tags)[0] || tag} slug={slug} setTag={handgeTagChange} setSlug={handleSlugChange} />
+                        {!slug && <CardsList posts={items} setSlug={handleSlugChange} setTag={handgeTagChange} />}
+                        {slug && <SinglePost post={findPostBySlug()} slug={slug} />}
                     </div>
                     <Footer footer={footer} />
                 </div>
@@ -212,12 +320,13 @@
         async function main() {
             const domNode = document.getElementById('root');
             const root = ReactDOM.createRoot(domNode);
-
+            const params = new URLSearchParams(window.location.search);
+            const urlSlug = params.get('slug');
             root.render(
                 <>
                     <HeaderSkeleton />
                     <div id="container">
-                        <CardsListSkeleton />
+                        {urlSlug ? <SinglePostSkeleton /> : <CardsListSkeleton />}
                     </div>
                 </>
             );
